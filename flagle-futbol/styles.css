@@ -1,0 +1,110 @@
+/* ====== Base ====== */
+:root {
+  --bg:#0e0f12; --card:#16181d; --muted:#8b93a7; --text:#e6e9ef;
+  --line:#262b38; --line2:#2f3546; --accent:#5eead4; --ok:#33d17a; --warn:#fbbf24;
+}
+*{box-sizing:border-box} html,body{height:100%}
+body{margin:0;background:#0b0c10;color:var(--text);font:15px/1.45 system-ui,Segoe UI,Roboto,Helvetica,Arial}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;border-bottom:1px solid var(--line)}
+h1{margin:0;font-size:18px;letter-spacing:.3px}
+.h2{margin:0 0 6px 0;font-size:16px}
+.muted{color:var(--muted)} .tiny{font-size:12px}
+
+.wrap{margin:0 auto;padding:16px}
+.wrap.narrow{max-width:560px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;box-shadow:0 6px 30px rgba(0,0,0,.25)}
+.row{display:flex;gap:8px;align-items:center}
+.spacer{flex:1}
+.mt8{margin-top:8px} .mt12{margin-top:12px}
+
+/* ====== Canvas + Overlay (limpio) ====== */
+.crestFrame{
+  border:1px solid var(--line2);
+  background:#0b0c0f;
+  border-radius:10px;
+  padding:10px;
+}
+.canvasBox{
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+canvas{
+  display:block;
+  width:100%;
+  height:auto;
+  background:#0a0b0f;
+  border-radius:6px;
+  border:1px solid var(--line);
+  transition: opacity 320ms ease;
+}
+.guess-overlay{
+  position:absolute;
+  inset:0;
+  display:none;
+  opacity:0;
+  pointer-events:none;
+  z-index:2;
+}
+.guess-overlay img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+}
+
+/* ====== Inputs y lista ====== */
+input[type="text"]{
+  flex:1; padding:12px 14px; border-radius:10px; border:1px solid var(--line2);
+  background:#0f1116; color:var(--text);
+}
+button{cursor:pointer;border:none;border-radius:10px;padding:10px 14px;font-weight:700}
+#guessBtn{background:#1f9f90;color:#071311}
+#guessBtn:disabled{opacity:.6;cursor:not-allowed}
+
+.guessList{display:grid;gap:8px}
+.guessRow{
+  display:grid;
+  grid-template-columns: 1fr 88px 56px;
+  align-items:center;
+  border:1px solid var(--line2);
+  background:#0d1118;
+  border-radius:10px;
+  min-height:52px;
+  padding:8px 10px;
+}
+.guessRow .name{font-weight:700}
+.guessRow .pct{justify-self:end; opacity:.9}
+.guessRow .thumbWrap{justify-self:end}
+.thumb{width:36px;height:24px;object-fit:contain;background:#0b0c10;border:1px solid var(--line);border-radius:6px}
+.guessRow.solved{border-color:#275735;background:#0f1a12}
+.guessRow.solved .name{color:var(--ok)}
+.guessRow.solved .pct{color:var(--ok)}
+.guessRow.empty{opacity:.5}
+
+.actions{display:grid;grid-template-columns: 1fr auto;gap:12px}
+.btnBig{background:#0f6ae0;color:#e8f1ff;border:1px solid #2b3f73}
+.btnShare{background:#232734;color:var(--text);border:1px solid var(--line2)}
+.btnBig:active,.btnShare:active{transform:translateY(1px)}
+
+.menuGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}
+.leagueBtn{background:#0d1118;border:1px solid var(--line2);border-radius:12px;padding:10px;text-align:left;color:var(--text);cursor:pointer}
+.leagueBtn:hover{border-color:#3b445a}
+
+.gameToolbar{ margin-bottom:10px }
+.btnGhost{
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--line2);
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+.leagueSelect{
+  background: #0f1116;
+  color: var(--text);
+  border: 1px solid var(--line2);
+  border-radius: 10px;
+  padding: 8px 10px;
+  min-width: 190px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flagle de Fútbol — Daily</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Flagle de Fútbol</h1>
+    <div class="ver muted tiny">v0.7 · catalog.json</div>
+  </header>
+
+  <div class="wrap narrow">
+
+    <!-- ====== MENÚ DE LIGAS ====== -->
+    <section class="card" id="menuCard">
+      <h2 class="h2">Elegí una liga</h2>
+      <div id="menuInfo" class="tiny muted">Cargando ligas…</div>
+      <div id="leagueButtons" class="menuGrid" style="margin-top:10px"></div>
+    </section>
+
+    <!-- ====== JUEGO ====== -->
+    <section class="card" id="gameCard" style="display:none">
+
+      <!-- Toolbar: back + selector de ligas -->
+      <div class="row gameToolbar">
+        <button id="backToMenu" class="btnGhost">← Back to menu</button>
+        <div class="spacer"></div>
+        <label for="leagueSelect" class="tiny muted">Liga:</label>
+        <select id="leagueSelect" class="leagueSelect"></select>
+      </div>
+
+      <!-- Marco del objetivo -->
+      <div class="crestFrame">
+        <div class="canvasBox">
+          <canvas id="targetCanvas"></canvas>
+
+          <!-- Overlay: clubSelected -->
+          <div id="guessOverlay" class="guess-overlay">
+            <img id="guessOverlayImg" class="overlay-img" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- input + botón -->
+      <div class="row mt8">
+        <input id="guessInput" type="text" placeholder="Escribí un club del país…" list="teamsList" autocomplete="off" />
+        <button id="guessBtn">Adivinar</button>
+      </div>
+      <datalist id="teamsList"></datalist>
+
+      <!-- lista de 6 filas de intentos -->
+      <div id="guessList" class="guessList mt8"></div>
+
+      <!-- acciones -->
+      <div class="actions mt12">
+        <button id="playAgain" class="btnBig">Play again</button>
+        <button id="shareBtn" class="btnShare">Share ▸</button>
+      </div>
+
+      <div class="tiny muted mt8">Objetivo aleatorio al elegir liga · comparación por color, misma escala/centrado.</div>
+    </section>
+
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
