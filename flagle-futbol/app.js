@@ -371,14 +371,13 @@ els.btn.addEventListener('click', async ()=>{
   // 2) preparar canvas oculto sin transición y procesar guess
   const prevTrans=els.canvas.style.transition;
   els.canvas.style.transition='none';
-  els.canvas.style.opacity='0';
+  els.canvas.style.opacity='1';
   (function(el){ void el.offsetWidth; })(els.canvas);
   els.canvas.style.transition=prevTrans||'';
 
   const hitPct = await processGuess(team);
   await fade(els.guessOverlay, 0, fcfg.overlayOut, fcfg.easing);
-  fade(els.canvas, 1, 100, fcfg.easing);
-
+  
   els.guessOverlay.style.display='none';
   els.guessOverlayImg.src='';
 
