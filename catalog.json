@@ -1,4546 +1,760 @@
 {
   "items": [
     {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Augsburgo",
-      "crest": "./escudoteca/alemania/bundesliga/png/augsburgo.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Bayerleverkusen",
-      "crest": "./escudoteca/alemania/bundesliga/png/bayerleverkusen.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Bayernmunchen",
-      "crest": "./escudoteca/alemania/bundesliga/png/bayernmunchen.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Bmonchengladbach",
-      "crest": "./escudoteca/alemania/bundesliga/png/bmonchengladbach.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Borussiadortmund",
-      "crest": "./escudoteca/alemania/bundesliga/png/borussiadortmund.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Eintrachtfrankfurt",
-      "crest": "./escudoteca/alemania/bundesliga/png/eintrachtfrankfurt.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Freiburg",
-      "crest": "./escudoteca/alemania/bundesliga/png/freiburg.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Hamburgo",
-      "crest": "./escudoteca/alemania/bundesliga/png/hamburgo.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Heidenheim",
-      "crest": "./escudoteca/alemania/bundesliga/png/heidenheim.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Hoffenheim",
-      "crest": "./escudoteca/alemania/bundesliga/png/hoffenheim.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Koln",
-      "crest": "./escudoteca/alemania/bundesliga/png/koln.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Mainz05",
-      "crest": "./escudoteca/alemania/bundesliga/png/mainz05.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Rbleipzig",
-      "crest": "./escudoteca/alemania/bundesliga/png/rbleipzig.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Stuttgart",
-      "crest": "./escudoteca/alemania/bundesliga/png/stuttgart.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "St Pauli",
-      "crest": "./escudoteca/alemania/bundesliga/png/st_pauli.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Unionberlin",
-      "crest": "./escudoteca/alemania/bundesliga/png/unionberlin.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Werderbremen",
-      "crest": "./escudoteca/alemania/bundesliga/png/werderbremen.png"
-    },
-    {
-      "country": "alemania",
-      "league": "bundesliga",
-      "name": "Wolfsburg",
-      "crest": "./escudoteca/alemania/bundesliga/png/wolfsburg.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Acassuso",
+      "crest": "./escudoteca/argentina/Argentina/png/acassuso.png"
     },
     {
       "country": "argentina",
-      "league": "primeradivision",
+      "league": "argentina",
+      "name": "Agropecuario",
+      "crest": "./escudoteca/argentina/Argentina/png/agropecuario.png"
+    },
+    {
+      "country": "argentina",
+      "league": "argentina",
       "name": "Aldosivi",
-      "crest": "./escudoteca/argentina/primeradivision/png/aldosivi.png"
+      "crest": "./escudoteca/argentina/Argentina/png/aldosivi.png"
     },
     {
       "country": "argentina",
-      "league": "primeradivision",
+      "league": "argentina",
+      "name": "Allboys",
+      "crest": "./escudoteca/argentina/Argentina/png/allboys.png"
+    },
+    {
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Almagro",
+      "crest": "./escudoteca/argentina/Argentina/png/almagro.png"
+    },
+    {
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Almirante",
+      "crest": "./escudoteca/argentina/Argentina/png/almirante.png"
+    },
+    {
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Alvarado",
+      "crest": "./escudoteca/argentina/Argentina/png/alvarado.png"
+    },
+    {
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Argentinomerlo",
+      "crest": "./escudoteca/argentina/Argentina/png/argentinomerlo.png"
+    },
+    {
+      "country": "argentina",
+      "league": "argentina",
       "name": "Argentinos",
-      "crest": "./escudoteca/argentina/primeradivision/png/argentinos.png"
+      "crest": "./escudoteca/argentina/Argentina/png/argentinos.png"
     },
     {
       "country": "argentina",
-      "league": "primeradivision",
-      "name": "Atleticotucuman",
-      "crest": "./escudoteca/argentina/primeradivision/png/atleticotucuman.png"
+      "league": "argentina",
+      "name": "Argquilmes",
+      "crest": "./escudoteca/argentina/Argentina/png/argquilmes.png"
     },
     {
       "country": "argentina",
-      "league": "primeradivision",
-      "name": "Banfield",
-      "crest": "./escudoteca/argentina/primeradivision/png/banfield.png"
+      "league": "argentina",
+      "name": "Armenio",
+      "crest": "./escudoteca/argentina/Argentina/png/armenio.png"
     },
     {
       "country": "argentina",
-      "league": "primeradivision",
-      "name": "Barracas",
-      "crest": "./escudoteca/argentina/primeradivision/png/barracas.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Belgrano",
-      "crest": "./escudoteca/argentina/primeradivision/png/belgrano.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Boca",
-      "crest": "./escudoteca/argentina/primeradivision/png/boca.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Centralcordoba",
-      "crest": "./escudoteca/argentina/primeradivision/png/centralcordoba.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Defensa",
-      "crest": "./escudoteca/argentina/primeradivision/png/defensa.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Estudiantes",
-      "crest": "./escudoteca/argentina/primeradivision/png/estudiantes.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Gimnasia",
-      "crest": "./escudoteca/argentina/primeradivision/png/gimnasia.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Godoycruz",
-      "crest": "./escudoteca/argentina/primeradivision/png/godoycruz.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Huracan",
-      "crest": "./escudoteca/argentina/primeradivision/png/huracan.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Independiente",
-      "crest": "./escudoteca/argentina/primeradivision/png/independiente.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Independienteriv",
-      "crest": "./escudoteca/argentina/primeradivision/png/independienteriv.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Instituto",
-      "crest": "./escudoteca/argentina/primeradivision/png/instituto.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Lanus",
-      "crest": "./escudoteca/argentina/primeradivision/png/lanus.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Newells",
-      "crest": "./escudoteca/argentina/primeradivision/png/newells.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Platense",
-      "crest": "./escudoteca/argentina/primeradivision/png/platense.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Racing",
-      "crest": "./escudoteca/argentina/primeradivision/png/racing.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Riestra",
-      "crest": "./escudoteca/argentina/primeradivision/png/riestra.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "River",
-      "crest": "./escudoteca/argentina/primeradivision/png/river.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Rosariocentral",
-      "crest": "./escudoteca/argentina/primeradivision/png/rosariocentral.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Sanlorenzo",
-      "crest": "./escudoteca/argentina/primeradivision/png/sanlorenzo.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Sanmartinsj",
-      "crest": "./escudoteca/argentina/primeradivision/png/sanmartinsj.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Sarmiento",
-      "crest": "./escudoteca/argentina/primeradivision/png/sarmiento.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Talleres",
-      "crest": "./escudoteca/argentina/primeradivision/png/talleres.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Tigre",
-      "crest": "./escudoteca/argentina/primeradivision/png/tigre.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Union",
-      "crest": "./escudoteca/argentina/primeradivision/png/union.png"
-    },
-    {
-      "country": "argentina",
-      "league": "primeradivision",
-      "name": "Velez",
-      "crest": "./escudoteca/argentina/primeradivision/png/velez.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Anderlecht",
-      "crest": "./escudoteca/belgica/proleague/png/anderlecht.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Cerclebrugge",
-      "crest": "./escudoteca/belgica/proleague/png/cerclebrugge.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Charleroi",
-      "crest": "./escudoteca/belgica/proleague/png/charleroi.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Clubbrujas",
-      "crest": "./escudoteca/belgica/proleague/png/clubbrujas.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Fcv Dender",
-      "crest": "./escudoteca/belgica/proleague/png/fcv_dender.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Genk",
-      "crest": "./escudoteca/belgica/proleague/png/genk.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Gent",
-      "crest": "./escudoteca/belgica/proleague/png/gent.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Leuven",
-      "crest": "./escudoteca/belgica/proleague/png/leuven.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Mechelen",
-      "crest": "./escudoteca/belgica/proleague/png/mechelen.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Raal",
-      "crest": "./escudoteca/belgica/proleague/png/raal.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Royal Antwerp",
-      "crest": "./escudoteca/belgica/proleague/png/royal_antwerp.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Sint Truidense",
-      "crest": "./escudoteca/belgica/proleague/png/sint-truidense.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Standard Lieja",
-      "crest": "./escudoteca/belgica/proleague/png/standard_lieja.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Union Saint Gilloise",
-      "crest": "./escudoteca/belgica/proleague/png/union_saint_gilloise.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Westerlo",
-      "crest": "./escudoteca/belgica/proleague/png/westerlo.png"
-    },
-    {
-      "country": "belgica",
-      "league": "proleague",
-      "name": "Zulte",
-      "crest": "./escudoteca/belgica/proleague/png/zulte.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "Abb",
-      "crest": "./escudoteca/bolivia/primeradivision/png/abb.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "Always Ready",
-      "crest": "./escudoteca/bolivia/primeradivision/png/always_ready.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "Aurora",
-      "crest": "./escudoteca/bolivia/primeradivision/png/aurora.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "Blooming",
-      "crest": "./escudoteca/bolivia/primeradivision/png/blooming.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "Bolivar",
-      "crest": "./escudoteca/bolivia/primeradivision/png/bolivar.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "Guabira",
-      "crest": "./escudoteca/bolivia/primeradivision/png/guabira.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "Gualberto Villarroel Dsj",
-      "crest": "./escudoteca/bolivia/primeradivision/png/gualberto_villarroel_dsj.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "Independiente Petrolero",
-      "crest": "./escudoteca/bolivia/primeradivision/png/independiente_petrolero.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "Jorge Wilstermann",
-      "crest": "./escudoteca/bolivia/primeradivision/png/jorge_wilstermann.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "Nacional Potosi",
-      "crest": "./escudoteca/bolivia/primeradivision/png/nacional_potosi.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "Oriente Petrolero",
-      "crest": "./escudoteca/bolivia/primeradivision/png/oriente_petrolero.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "Real Oruro",
-      "crest": "./escudoteca/bolivia/primeradivision/png/real_oruro.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "Real Tomayapo",
-      "crest": "./escudoteca/bolivia/primeradivision/png/real_tomayapo.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "San Antonio",
-      "crest": "./escudoteca/bolivia/primeradivision/png/san_antonio.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "The Strongest",
-      "crest": "./escudoteca/bolivia/primeradivision/png/the_strongest.png"
-    },
-    {
-      "country": "bolivia",
-      "league": "primeradivision",
-      "name": "Universitario De Vinto",
-      "crest": "./escudoteca/bolivia/primeradivision/png/universitario_de_vinto.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Atlmineiro",
-      "crest": "./escudoteca/brasil/seriea/png/atlmineiro.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Bahia",
-      "crest": "./escudoteca/brasil/seriea/png/bahia.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Botafogo",
-      "crest": "./escudoteca/brasil/seriea/png/botafogo.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Ceara",
-      "crest": "./escudoteca/brasil/seriea/png/ceara.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Corinthians",
-      "crest": "./escudoteca/brasil/seriea/png/corinthians.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Cruzeiro",
-      "crest": "./escudoteca/brasil/seriea/png/cruzeiro.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Flamengo",
-      "crest": "./escudoteca/brasil/seriea/png/flamengo.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Fluminense",
-      "crest": "./escudoteca/brasil/seriea/png/fluminense.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Fortaleza",
-      "crest": "./escudoteca/brasil/seriea/png/fortaleza.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Gremio",
-      "crest": "./escudoteca/brasil/seriea/png/gremio.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Internacional",
-      "crest": "./escudoteca/brasil/seriea/png/internacional.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Juventude",
-      "crest": "./escudoteca/brasil/seriea/png/juventude.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Mirassol",
-      "crest": "./escudoteca/brasil/seriea/png/mirassol.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Palmeiras",
-      "crest": "./escudoteca/brasil/seriea/png/palmeiras.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Rbbragantino",
-      "crest": "./escudoteca/brasil/seriea/png/rbbragantino.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Santos",
-      "crest": "./escudoteca/brasil/seriea/png/santos.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Saopaulo",
-      "crest": "./escudoteca/brasil/seriea/png/saopaulo.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Sportrecife",
-      "crest": "./escudoteca/brasil/seriea/png/sportrecife.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Vasco",
-      "crest": "./escudoteca/brasil/seriea/png/vasco.png"
-    },
-    {
-      "country": "brasil",
-      "league": "seriea",
-      "name": "Vitoria",
-      "crest": "./escudoteca/brasil/seriea/png/vitoria.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Ajax",
-      "crest": "./escudoteca/champions_league/champions_league/png/ajax.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
+      "league": "argentina",
       "name": "Arsenal",
-      "crest": "./escudoteca/champions_league/champions_league/png/arsenal.png"
+      "crest": "./escudoteca/argentina/Argentina/png/arsenal.png"
     },
     {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Atalanta",
-      "crest": "./escudoteca/champions_league/champions_league/png/atalanta.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Athletic",
-      "crest": "./escudoteca/champions_league/champions_league/png/athletic.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Atlmadrid",
-      "crest": "./escudoteca/champions_league/champions_league/png/atlmadrid.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Barcelona",
-      "crest": "./escudoteca/champions_league/champions_league/png/barcelona.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Bayerleverkusen",
-      "crest": "./escudoteca/champions_league/champions_league/png/bayerleverkusen.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Bayernmunchen",
-      "crest": "./escudoteca/champions_league/champions_league/png/bayernmunchen.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Benfica",
-      "crest": "./escudoteca/champions_league/champions_league/png/benfica.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Bodo Glimt",
-      "crest": "./escudoteca/champions_league/champions_league/png/bodo_glimt.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Borussiadortmund",
-      "crest": "./escudoteca/champions_league/champions_league/png/borussiadortmund.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Chelsea",
-      "crest": "./escudoteca/champions_league/champions_league/png/chelsea.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Clubbrujas",
-      "crest": "./escudoteca/champions_league/champions_league/png/clubbrujas.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Eintrachtfrankfurt",
-      "crest": "./escudoteca/champions_league/champions_league/png/eintrachtfrankfurt.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Fc Copenhague",
-      "crest": "./escudoteca/champions_league/champions_league/png/fc_copenhague.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Galatasaray",
-      "crest": "./escudoteca/champions_league/champions_league/png/galatasaray.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Inter",
-      "crest": "./escudoteca/champions_league/champions_league/png/inter.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Juventus",
-      "crest": "./escudoteca/champions_league/champions_league/png/juventus.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Kairat Almaty",
-      "crest": "./escudoteca/champions_league/champions_league/png/kairat_almaty.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Liverpool",
-      "crest": "./escudoteca/champions_league/champions_league/png/liverpool.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Manchestercity",
-      "crest": "./escudoteca/champions_league/champions_league/png/manchestercity.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Monaco",
-      "crest": "./escudoteca/champions_league/champions_league/png/monaco.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Napoli",
-      "crest": "./escudoteca/champions_league/champions_league/png/napoli.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Newcastle",
-      "crest": "./escudoteca/champions_league/champions_league/png/newcastle.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Olimpiquemarsella",
-      "crest": "./escudoteca/champions_league/champions_league/png/olimpiquemarsella.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Olympiacos",
-      "crest": "./escudoteca/champions_league/champions_league/png/olympiacos.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Pafos",
-      "crest": "./escudoteca/champions_league/champions_league/png/pafos.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Psg",
-      "crest": "./escudoteca/champions_league/champions_league/png/psg.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Psv",
-      "crest": "./escudoteca/champions_league/champions_league/png/psv.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Qarabag",
-      "crest": "./escudoteca/champions_league/champions_league/png/qarabag.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Realmadrid",
-      "crest": "./escudoteca/champions_league/champions_league/png/realmadrid.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Slavia Praga",
-      "crest": "./escudoteca/champions_league/champions_league/png/slavia_praga.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Sporting",
-      "crest": "./escudoteca/champions_league/champions_league/png/sporting.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Tottenham",
-      "crest": "./escudoteca/champions_league/champions_league/png/tottenham.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Union Saint Gilloise",
-      "crest": "./escudoteca/champions_league/champions_league/png/union_saint_gilloise.png"
-    },
-    {
-      "country": "champions_league",
-      "league": "champions_league",
-      "name": "Villarreal",
-      "crest": "./escudoteca/champions_league/champions_league/png/villarreal.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Audax",
-      "crest": "./escudoteca/chile/primeradivision/png/audax.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Cobresal",
-      "crest": "./escudoteca/chile/primeradivision/png/cobresal.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Colocolo",
-      "crest": "./escudoteca/chile/primeradivision/png/colocolo.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Coquimbo",
-      "crest": "./escudoteca/chile/primeradivision/png/coquimbo.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Depiquique",
-      "crest": "./escudoteca/chile/primeradivision/png/depiquique.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Deplaserena",
-      "crest": "./escudoteca/chile/primeradivision/png/deplaserena.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Deportes Limache",
-      "crest": "./escudoteca/chile/primeradivision/png/deportes_limache.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Everton",
-      "crest": "./escudoteca/chile/primeradivision/png/everton.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Huachipato",
-      "crest": "./escudoteca/chile/primeradivision/png/huachipato.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Nublense",
-      "crest": "./escudoteca/chile/primeradivision/png/nublense.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Ohiggins",
-      "crest": "./escudoteca/chile/primeradivision/png/ohiggins.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Palestino",
-      "crest": "./escudoteca/chile/primeradivision/png/palestino.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Ucatolica",
-      "crest": "./escudoteca/chile/primeradivision/png/ucatolica.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Udechile",
-      "crest": "./escudoteca/chile/primeradivision/png/udechile.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Unionespanola",
-      "crest": "./escudoteca/chile/primeradivision/png/unionespanola.png"
-    },
-    {
-      "country": "chile",
-      "league": "primeradivision",
-      "name": "Unionlacalera",
-      "crest": "./escudoteca/chile/primeradivision/png/unionlacalera.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Beijing Guoan",
-      "crest": "./escudoteca/china/superliga/png/beijing_guoan.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Changchun Yatai",
-      "crest": "./escudoteca/china/superliga/png/changchun_yatai.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Chengdu Rongcheng",
-      "crest": "./escudoteca/china/superliga/png/chengdu_rongcheng.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Dalian Yingbo",
-      "crest": "./escudoteca/china/superliga/png/dalian_yingbo.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Guangzhou Rf",
-      "crest": "./escudoteca/china/superliga/png/guangzhou_rf.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Henan Jianye",
-      "crest": "./escudoteca/china/superliga/png/henan_jianye.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Kunshan",
-      "crest": "./escudoteca/china/superliga/png/kunshan.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Meizhou Hakka",
-      "crest": "./escudoteca/china/superliga/png/meizhou_hakka.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Qingdao Huanghai",
-      "crest": "./escudoteca/china/superliga/png/qingdao_huanghai.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Qingdao Qest Coast",
-      "crest": "./escudoteca/china/superliga/png/qingdao_qest_coast.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Shandong Luneng",
-      "crest": "./escudoteca/china/superliga/png/shandong_luneng.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Shanghai Port",
-      "crest": "./escudoteca/china/superliga/png/shanghai_port.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Shanghai Shenhua",
-      "crest": "./escudoteca/china/superliga/png/shanghai_shenhua.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Sichuan Jiuniu",
-      "crest": "./escudoteca/china/superliga/png/sichuan_jiuniu.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Tianjin Jinmen Tiger",
-      "crest": "./escudoteca/china/superliga/png/tianjin_jinmen_tiger.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Wuhan Three Towns",
-      "crest": "./escudoteca/china/superliga/png/wuhan_three_towns.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Yunnan Yukun",
-      "crest": "./escudoteca/china/superliga/png/yunnan_yukun.png"
-    },
-    {
-      "country": "china",
-      "league": "superliga",
-      "name": "Zhejiang",
-      "crest": "./escudoteca/china/superliga/png/zhejiang.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Aguilas Doradas",
-      "crest": "./escudoteca/colombia/primeraa/png/aguilas_doradas.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Alianza",
-      "crest": "./escudoteca/colombia/primeraa/png/alianza.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "America",
-      "crest": "./escudoteca/colombia/primeraa/png/america.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Atlnacional",
-      "crest": "./escudoteca/colombia/primeraa/png/atlnacional.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Boyacachico",
-      "crest": "./escudoteca/colombia/primeraa/png/boyacachico.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Bucaramanga",
-      "crest": "./escudoteca/colombia/primeraa/png/bucaramanga.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Depcali",
-      "crest": "./escudoteca/colombia/primeraa/png/depcali.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Dim",
-      "crest": "./escudoteca/colombia/primeraa/png/dim.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Envigado",
-      "crest": "./escudoteca/colombia/primeraa/png/envigado.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Equidad",
-      "crest": "./escudoteca/colombia/primeraa/png/equidad.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Fortaleza",
-      "crest": "./escudoteca/colombia/primeraa/png/fortaleza.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Junior",
-      "crest": "./escudoteca/colombia/primeraa/png/junior.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Llaneros",
-      "crest": "./escudoteca/colombia/primeraa/png/llaneros.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Millonarios",
-      "crest": "./escudoteca/colombia/primeraa/png/millonarios.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Oncecaldas",
-      "crest": "./escudoteca/colombia/primeraa/png/oncecaldas.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Pasto",
-      "crest": "./escudoteca/colombia/primeraa/png/pasto.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Pereira",
-      "crest": "./escudoteca/colombia/primeraa/png/pereira.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Santafe",
-      "crest": "./escudoteca/colombia/primeraa/png/santafe.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Tolima",
-      "crest": "./escudoteca/colombia/primeraa/png/tolima.png"
-    },
-    {
-      "country": "colombia",
-      "league": "primeraa",
-      "name": "Union Magdalena",
-      "crest": "./escudoteca/colombia/primeraa/png/union_magdalena.png"
-    },
-    {
-      "country": "confederaciones",
-      "league": "confederaciones",
-      "name": "Asianfc",
-      "crest": "./escudoteca/confederaciones/confederaciones/png/asianfc.png"
-    },
-    {
-      "country": "confederaciones",
-      "league": "confederaciones",
-      "name": "Caf",
-      "crest": "./escudoteca/confederaciones/confederaciones/png/caf.png"
-    },
-    {
-      "country": "confederaciones",
-      "league": "confederaciones",
-      "name": "Concacaf",
-      "crest": "./escudoteca/confederaciones/confederaciones/png/concacaf.png"
-    },
-    {
-      "country": "confederaciones",
-      "league": "confederaciones",
-      "name": "Conmebol",
-      "crest": "./escudoteca/confederaciones/confederaciones/png/conmebol.png"
-    },
-    {
-      "country": "confederaciones",
-      "league": "confederaciones",
-      "name": "Fifa",
-      "crest": "./escudoteca/confederaciones/confederaciones/png/fifa.png"
-    },
-    {
-      "country": "confederaciones",
-      "league": "confederaciones",
-      "name": "Ofc",
-      "crest": "./escudoteca/confederaciones/confederaciones/png/ofc.png"
-    },
-    {
-      "country": "confederaciones",
-      "league": "confederaciones",
-      "name": "Uefa",
-      "crest": "./escudoteca/confederaciones/confederaciones/png/uefa.png"
-    },
-    {
-      "country": "copas",
-      "league": "copasnacionales",
-      "name": "Copaargentina",
-      "crest": "./escudoteca/copas/copasnacionales/png/copaargentina.png"
-    },
-    {
-      "country": "copas",
-      "league": "copasnacionales",
-      "name": "Copadelrey",
-      "crest": "./escudoteca/copas/copasnacionales/png/copadelrey.png"
-    },
-    {
-      "country": "copas",
-      "league": "copasnacionales",
-      "name": "Copaliga2021",
-      "crest": "./escudoteca/copas/copasnacionales/png/copaliga2021.png"
-    },
-    {
-      "country": "copas",
-      "league": "copasnacionales",
-      "name": "Copaliga2022",
-      "crest": "./escudoteca/copas/copasnacionales/png/copaliga2022.png"
-    },
-    {
-      "country": "copas",
-      "league": "copasnacionales",
-      "name": "Copamaradona",
-      "crest": "./escudoteca/copas/copasnacionales/png/copamaradona.png"
-    },
-    {
-      "country": "copas",
-      "league": "copasnacionales",
-      "name": "Coppaitalia",
-      "crest": "./escudoteca/copas/copasnacionales/png/coppaitalia.png"
-    },
-    {
-      "country": "copas",
-      "league": "copasnacionales",
-      "name": "Facup",
-      "crest": "./escudoteca/copas/copasnacionales/png/facup.png"
-    },
-    {
-      "country": "copas",
-      "league": "copasnacionales",
-      "name": "Supercopa Uruguay",
-      "crest": "./escudoteca/copas/copasnacionales/png/supercopa_uruguay.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Aucas",
-      "crest": "./escudoteca/ecuador/seriea/png/aucas.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Barcelona",
-      "crest": "./escudoteca/ecuador/seriea/png/barcelona.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Delfin",
-      "crest": "./escudoteca/ecuador/seriea/png/delfin.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Depcuenca",
-      "crest": "./escudoteca/ecuador/seriea/png/depcuenca.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Elnacional",
-      "crest": "./escudoteca/ecuador/seriea/png/elnacional.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Emelec",
-      "crest": "./escudoteca/ecuador/seriea/png/emelec.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Independientedv",
-      "crest": "./escudoteca/ecuador/seriea/png/independientedv.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Libertad",
-      "crest": "./escudoteca/ecuador/seriea/png/libertad.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Ligadequito",
-      "crest": "./escudoteca/ecuador/seriea/png/ligadequito.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Macara",
-      "crest": "./escudoteca/ecuador/seriea/png/macara.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Manta",
-      "crest": "./escudoteca/ecuador/seriea/png/manta.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Mushucruna",
-      "crest": "./escudoteca/ecuador/seriea/png/mushucruna.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Orense",
-      "crest": "./escudoteca/ecuador/seriea/png/orense.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Tecnicouniv",
-      "crest": "./escudoteca/ecuador/seriea/png/tecnicouniv.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Universidadcatolica",
-      "crest": "./escudoteca/ecuador/seriea/png/universidadcatolica.png"
-    },
-    {
-      "country": "ecuador",
-      "league": "seriea",
-      "name": "Vinotinto",
-      "crest": "./escudoteca/ecuador/seriea/png/vinotinto.png"
-    },
-    {
-      "country": "elsalvador",
-      "league": "ligamayor",
-      "name": "Alianzafc",
-      "crest": "./escudoteca/elsalvador/ligamayor/png/alianzafc.png"
-    },
-    {
-      "country": "elsalvador",
-      "league": "ligamayor",
-      "name": "Cacahuatique",
-      "crest": "./escudoteca/elsalvador/ligamayor/png/cacahuatique.png"
-    },
-    {
-      "country": "elsalvador",
-      "league": "ligamayor",
-      "name": "Cdaguila",
-      "crest": "./escudoteca/elsalvador/ligamayor/png/cdaguila.png"
-    },
-    {
-      "country": "elsalvador",
-      "league": "ligamayor",
-      "name": "Dragon",
-      "crest": "./escudoteca/elsalvador/ligamayor/png/dragon.png"
-    },
-    {
-      "country": "elsalvador",
-      "league": "ligamayor",
-      "name": "Fas",
-      "crest": "./escudoteca/elsalvador/ligamayor/png/fas.png"
-    },
-    {
-      "country": "elsalvador",
-      "league": "ligamayor",
-      "name": "Fuerte San Francisco",
-      "crest": "./escudoteca/elsalvador/ligamayor/png/fuerte_san_francisco.png"
-    },
-    {
-      "country": "elsalvador",
-      "league": "ligamayor",
-      "name": "Isidro Metapan",
-      "crest": "./escudoteca/elsalvador/ligamayor/png/isidro_metapan.png"
-    },
-    {
-      "country": "elsalvador",
-      "league": "ligamayor",
-      "name": "La Firpo",
-      "crest": "./escudoteca/elsalvador/ligamayor/png/la_firpo.png"
-    },
-    {
-      "country": "elsalvador",
-      "league": "ligamayor",
-      "name": "Municipal",
-      "crest": "./escudoteca/elsalvador/ligamayor/png/municipal.png"
-    },
-    {
-      "country": "elsalvador",
-      "league": "ligamayor",
-      "name": "Oncedeportivo",
-      "crest": "./escudoteca/elsalvador/ligamayor/png/oncedeportivo.png"
-    },
-    {
-      "country": "elsalvador",
-      "league": "ligamayor",
-      "name": "Platense",
-      "crest": "./escudoteca/elsalvador/ligamayor/png/platense.png"
-    },
-    {
-      "country": "escocia",
-      "league": "premiership",
-      "name": "Aberdeen",
-      "crest": "./escudoteca/escocia/premiership/png/aberdeen.png"
-    },
-    {
-      "country": "escocia",
-      "league": "premiership",
-      "name": "Celtic",
-      "crest": "./escudoteca/escocia/premiership/png/celtic.png"
-    },
-    {
-      "country": "escocia",
-      "league": "premiership",
-      "name": "Dundee Fc",
-      "crest": "./escudoteca/escocia/premiership/png/dundee_fc.png"
-    },
-    {
-      "country": "escocia",
-      "league": "premiership",
-      "name": "Dundee United",
-      "crest": "./escudoteca/escocia/premiership/png/dundee_united.png"
-    },
-    {
-      "country": "escocia",
-      "league": "premiership",
-      "name": "Falkirk",
-      "crest": "./escudoteca/escocia/premiership/png/falkirk.png"
-    },
-    {
-      "country": "escocia",
-      "league": "premiership",
-      "name": "Heart Of Midlothian",
-      "crest": "./escudoteca/escocia/premiership/png/heart_of_midlothian.png"
-    },
-    {
-      "country": "escocia",
-      "league": "premiership",
-      "name": "Hibernian",
-      "crest": "./escudoteca/escocia/premiership/png/hibernian.png"
-    },
-    {
-      "country": "escocia",
-      "league": "premiership",
-      "name": "Kilmarnock",
-      "crest": "./escudoteca/escocia/premiership/png/kilmarnock.png"
-    },
-    {
-      "country": "escocia",
-      "league": "premiership",
-      "name": "Livingston",
-      "crest": "./escudoteca/escocia/premiership/png/livingston.png"
-    },
-    {
-      "country": "escocia",
-      "league": "premiership",
-      "name": "Motherwell",
-      "crest": "./escudoteca/escocia/premiership/png/motherwell.png"
-    },
-    {
-      "country": "escocia",
-      "league": "premiership",
-      "name": "Rangers",
-      "crest": "./escudoteca/escocia/premiership/png/rangers.png"
-    },
-    {
-      "country": "escocia",
-      "league": "premiership",
-      "name": "St Mirren",
-      "crest": "./escudoteca/escocia/premiership/png/st_mirren.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Alaves",
-      "crest": "./escudoteca/espana/laliga/png/alaves.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Athletic",
-      "crest": "./escudoteca/espana/laliga/png/athletic.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Atlmadrid",
-      "crest": "./escudoteca/espana/laliga/png/atlmadrid.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Barcelona",
-      "crest": "./escudoteca/espana/laliga/png/barcelona.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Betis",
-      "crest": "./escudoteca/espana/laliga/png/betis.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Elche",
-      "crest": "./escudoteca/espana/laliga/png/elche.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Espanyol",
-      "crest": "./escudoteca/espana/laliga/png/espanyol.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Getafe",
-      "crest": "./escudoteca/espana/laliga/png/getafe.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Girona",
-      "crest": "./escudoteca/espana/laliga/png/girona.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Levante",
-      "crest": "./escudoteca/espana/laliga/png/levante.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Mallorca",
-      "crest": "./escudoteca/espana/laliga/png/mallorca.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Osasuna",
-      "crest": "./escudoteca/espana/laliga/png/osasuna.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Rayovallecano",
-      "crest": "./escudoteca/espana/laliga/png/rayovallecano.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Realmadrid",
-      "crest": "./escudoteca/espana/laliga/png/realmadrid.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Realoviedo",
-      "crest": "./escudoteca/espana/laliga/png/realoviedo.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Realsociedad",
-      "crest": "./escudoteca/espana/laliga/png/realsociedad.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Sevilla",
-      "crest": "./escudoteca/espana/laliga/png/sevilla.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Valencia",
-      "crest": "./escudoteca/espana/laliga/png/valencia.png"
-    },
-    {
-      "country": "espana",
-      "league": "laliga",
-      "name": "Villarreal",
-      "crest": "./escudoteca/espana/laliga/png/villarreal.png"
-    },
-    {
-      "country": "estadosunidos",
-      "league": "mls",
+      "country": "argentina",
+      "league": "argentina",
       "name": "Atlanta",
-      "crest": "./escudoteca/estadosunidos/mls/png/atlanta.png"
+      "crest": "./escudoteca/argentina/Argentina/png/atlanta.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Austin",
-      "crest": "./escudoteca/estadosunidos/mls/png/austin.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Atleticotucuman",
+      "crest": "./escudoteca/argentina/Argentina/png/atleticotucuman.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Charlotte",
-      "crest": "./escudoteca/estadosunidos/mls/png/charlotte.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Banfield",
+      "crest": "./escudoteca/argentina/Argentina/png/banfield.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Chicago",
-      "crest": "./escudoteca/estadosunidos/mls/png/chicago.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Barracas",
+      "crest": "./escudoteca/argentina/Argentina/png/barracas.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Cincinnati",
-      "crest": "./escudoteca/estadosunidos/mls/png/cincinnati.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Belgrano",
+      "crest": "./escudoteca/argentina/Argentina/png/belgrano.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Colorado",
-      "crest": "./escudoteca/estadosunidos/mls/png/colorado.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Boca",
+      "crest": "./escudoteca/argentina/Argentina/png/boca.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Columbus",
-      "crest": "./escudoteca/estadosunidos/mls/png/columbus.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Brownadrogue",
+      "crest": "./escudoteca/argentina/Argentina/png/brownadrogue.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Dallas",
-      "crest": "./escudoteca/estadosunidos/mls/png/dallas.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Cadu",
+      "crest": "./escudoteca/argentina/Argentina/png/cadu.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Dcunited",
-      "crest": "./escudoteca/estadosunidos/mls/png/dcunited.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Centralcordoba",
+      "crest": "./escudoteca/argentina/Argentina/png/centralcordoba.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Houstondynamo",
-      "crest": "./escudoteca/estadosunidos/mls/png/houstondynamo.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Central Norte",
+      "crest": "./escudoteca/argentina/Argentina/png/central_norte.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Intermiami",
-      "crest": "./escudoteca/estadosunidos/mls/png/intermiami.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Chacarita",
+      "crest": "./escudoteca/argentina/Argentina/png/chacarita.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Kansascity",
-      "crest": "./escudoteca/estadosunidos/mls/png/kansascity.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Chaco For Ever",
+      "crest": "./escudoteca/argentina/Argentina/png/chaco_for_ever.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Losangeles",
-      "crest": "./escudoteca/estadosunidos/mls/png/losangeles.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Colegiales",
+      "crest": "./escudoteca/argentina/Argentina/png/colegiales.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Losangelesgalaxy",
-      "crest": "./escudoteca/estadosunidos/mls/png/losangelesgalaxy.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Colon",
+      "crest": "./escudoteca/argentina/Argentina/png/colon.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Minnesota",
-      "crest": "./escudoteca/estadosunidos/mls/png/minnesota.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Comunicaciones",
+      "crest": "./escudoteca/argentina/Argentina/png/comunicaciones.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Montreal",
-      "crest": "./escudoteca/estadosunidos/mls/png/montreal.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Defensa",
+      "crest": "./escudoteca/argentina/Argentina/png/defensa.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Nashville",
-      "crest": "./escudoteca/estadosunidos/mls/png/nashville.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Defensores",
+      "crest": "./escudoteca/argentina/Argentina/png/defensores.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Newengland",
-      "crest": "./escudoteca/estadosunidos/mls/png/newengland.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Deportivo Maipu",
+      "crest": "./escudoteca/argentina/Argentina/png/depmaipu.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Newyork",
-      "crest": "./escudoteca/estadosunidos/mls/png/newyork.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Deportivo Merlo",
+      "crest": "./escudoteca/argentina/Argentina/png/depmerlo.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Newyorkcity",
-      "crest": "./escudoteca/estadosunidos/mls/png/newyorkcity.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Deportivo Madryn",
+      "crest": "./escudoteca/argentina/Argentina/png/deportivo_madryn.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Orlandocity",
-      "crest": "./escudoteca/estadosunidos/mls/png/orlandocity.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Dock Sud",
+      "crest": "./escudoteca/argentina/Argentina/png/dock_sud.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Philadelphia",
-      "crest": "./escudoteca/estadosunidos/mls/png/philadelphia.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Estudiantes",
+      "crest": "./escudoteca/argentina/Argentina/png/estudiantes.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Portland",
-      "crest": "./escudoteca/estadosunidos/mls/png/portland.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Estudiantes de Rio Cuarto",
+      "crest": "./escudoteca/argentina/Argentina/png/estudiantesrc.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Realstaltlake",
-      "crest": "./escudoteca/estadosunidos/mls/png/realstaltlake.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Excursionistas",
+      "crest": "./escudoteca/argentina/Argentina/png/excursionistas.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Sandiego",
-      "crest": "./escudoteca/estadosunidos/mls/png/sandiego.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Fenix",
+      "crest": "./escudoteca/argentina/Argentina/png/fenix.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Sanjose",
-      "crest": "./escudoteca/estadosunidos/mls/png/sanjose.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Ferro",
+      "crest": "./escudoteca/argentina/Argentina/png/ferro.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Seattle",
-      "crest": "./escudoteca/estadosunidos/mls/png/seattle.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Flandria",
+      "crest": "./escudoteca/argentina/Argentina/png/flandria.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "St Louis City",
-      "crest": "./escudoteca/estadosunidos/mls/png/st_louis_city.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Gimnasia",
+      "crest": "./escudoteca/argentina/Argentina/png/gimnasia.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Toronto",
-      "crest": "./escudoteca/estadosunidos/mls/png/toronto.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Gimnasia de Jujuy",
+      "crest": "./escudoteca/argentina/Argentina/png/gimnasiajujuy.png"
     },
     {
-      "country": "estadosunidos",
-      "league": "mls",
-      "name": "Vancouver",
-      "crest": "./escudoteca/estadosunidos/mls/png/vancouver.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Gimnasia de Mendoza",
+      "crest": "./escudoteca/argentina/Argentina/png/gimnasiamendoza.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Angers",
-      "crest": "./escudoteca/francia/ligue1/png/angers.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Gimnasia Y Tiro",
+      "crest": "./escudoteca/argentina/Argentina/png/gimnasia_y_tiro.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Auxerre",
-      "crest": "./escudoteca/francia/ligue1/png/auxerre.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Godoy Cruz",
+      "crest": "./escudoteca/argentina/Argentina/png/godoycruz.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Havre",
-      "crest": "./escudoteca/francia/ligue1/png/havre.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Guemes",
+      "crest": "./escudoteca/argentina/Argentina/png/guemes.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Lille",
-      "crest": "./escudoteca/francia/ligue1/png/lille.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Huracan",
+      "crest": "./escudoteca/argentina/Argentina/png/huracan.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Lorient",
-      "crest": "./escudoteca/francia/ligue1/png/lorient.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Independiente",
+      "crest": "./escudoteca/argentina/Argentina/png/independiente.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Metz",
-      "crest": "./escudoteca/francia/ligue1/png/metz.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Independiente de Rivadavia",
+      "crest": "./escudoteca/argentina/Argentina/png/independienteriv.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Monaco",
-      "crest": "./escudoteca/francia/ligue1/png/monaco.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Instituto",
+      "crest": "./escudoteca/argentina/Argentina/png/instituto.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Nantes",
-      "crest": "./escudoteca/francia/ligue1/png/nantes.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Laferrere",
+      "crest": "./escudoteca/argentina/Argentina/png/laferrere.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Niza",
-      "crest": "./escudoteca/francia/ligue1/png/niza.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Lanus",
+      "crest": "./escudoteca/argentina/Argentina/png/lanus.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Olimpiquemarsella",
-      "crest": "./escudoteca/francia/ligue1/png/olimpiquemarsella.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Liniers",
+      "crest": "./escudoteca/argentina/Argentina/png/liniers.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Olympiquelyon",
-      "crest": "./escudoteca/francia/ligue1/png/olympiquelyon.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Los Andes",
+      "crest": "./escudoteca/argentina/Argentina/png/losandes.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Paris Fc",
-      "crest": "./escudoteca/francia/ligue1/png/paris_fc.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Midland",
+      "crest": "./escudoteca/argentina/Argentina/png/midland.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Psg",
-      "crest": "./escudoteca/francia/ligue1/png/psg.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Mitre",
+      "crest": "./escudoteca/argentina/Argentina/png/mitre.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Racingetrasburgo",
-      "crest": "./escudoteca/francia/ligue1/png/racingetrasburgo.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Moron",
+      "crest": "./escudoteca/argentina/Argentina/png/moron.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Racinglens",
-      "crest": "./escudoteca/francia/ligue1/png/racinglens.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Newells",
+      "crest": "./escudoteca/argentina/Argentina/png/newells.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Rennais",
-      "crest": "./escudoteca/francia/ligue1/png/rennais.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Nueva Chicago",
+      "crest": "./escudoteca/argentina/Argentina/png/nueva_chicago.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Stadebretois",
-      "crest": "./escudoteca/francia/ligue1/png/stadebretois.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Patronato",
+      "crest": "./escudoteca/argentina/Argentina/png/patronato.png"
     },
     {
-      "country": "francia",
-      "league": "ligue1",
-      "name": "Toulouse",
-      "crest": "./escudoteca/francia/ligue1/png/toulouse.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Platense",
+      "crest": "./escudoteca/argentina/Argentina/png/platense.png"
     },
     {
-      "country": "grecia",
-      "league": "superliga",
-      "name": "Aek Atenas",
-      "crest": "./escudoteca/grecia/superliga/png/aek_atenas.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Quilmes",
+      "crest": "./escudoteca/argentina/Argentina/png/quilmes.png"
     },
     {
-      "country": "grecia",
-      "league": "superliga",
-      "name": "Ael",
-      "crest": "./escudoteca/grecia/superliga/png/ael.png"
-    },
-    {
-      "country": "grecia",
-      "league": "superliga",
-      "name": "Ae Kifisia",
-      "crest": "./escudoteca/grecia/superliga/png/ae_kifisia.png"
-    },
-    {
-      "country": "grecia",
-      "league": "superliga",
-      "name": "Aris",
-      "crest": "./escudoteca/grecia/superliga/png/aris.png"
-    },
-    {
-      "country": "grecia",
-      "league": "superliga",
-      "name": "Asteras",
-      "crest": "./escudoteca/grecia/superliga/png/asteras.png"
-    },
-    {
-      "country": "grecia",
-      "league": "superliga",
-      "name": "Atromitos",
-      "crest": "./escudoteca/grecia/superliga/png/atromitos.png"
-    },
-    {
-      "country": "grecia",
-      "league": "superliga",
-      "name": "Levadiakos",
-      "crest": "./escudoteca/grecia/superliga/png/levadiakos.png"
-    },
-    {
-      "country": "grecia",
-      "league": "superliga",
-      "name": "Ofi",
-      "crest": "./escudoteca/grecia/superliga/png/ofi.png"
-    },
-    {
-      "country": "grecia",
-      "league": "superliga",
-      "name": "Olympiacos",
-      "crest": "./escudoteca/grecia/superliga/png/olympiacos.png"
-    },
-    {
-      "country": "grecia",
-      "league": "superliga",
-      "name": "Panathinaikos",
-      "crest": "./escudoteca/grecia/superliga/png/panathinaikos.png"
-    },
-    {
-      "country": "grecia",
-      "league": "superliga",
-      "name": "Panetolikos",
-      "crest": "./escudoteca/grecia/superliga/png/panetolikos.png"
-    },
-    {
-      "country": "grecia",
-      "league": "superliga",
-      "name": "Panserraikos",
-      "crest": "./escudoteca/grecia/superliga/png/panserraikos.png"
-    },
-    {
-      "country": "grecia",
-      "league": "superliga",
-      "name": "Paok",
-      "crest": "./escudoteca/grecia/superliga/png/paok.png"
-    },
-    {
-      "country": "grecia",
-      "league": "superliga",
-      "name": "Volos",
-      "crest": "./escudoteca/grecia/superliga/png/volos.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Arsenal",
-      "crest": "./escudoteca/inglaterra/premier/png/arsenal.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Astonvilla",
-      "crest": "./escudoteca/inglaterra/premier/png/astonvilla.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Bournemouth",
-      "crest": "./escudoteca/inglaterra/premier/png/bournemouth.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Brentford",
-      "crest": "./escudoteca/inglaterra/premier/png/brentford.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Brighton",
-      "crest": "./escudoteca/inglaterra/premier/png/brighton.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Burnley",
-      "crest": "./escudoteca/inglaterra/premier/png/burnley.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Chelsea",
-      "crest": "./escudoteca/inglaterra/premier/png/chelsea.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Crystalpalace",
-      "crest": "./escudoteca/inglaterra/premier/png/crystalpalace.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Everton",
-      "crest": "./escudoteca/inglaterra/premier/png/everton.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Fulham",
-      "crest": "./escudoteca/inglaterra/premier/png/fulham.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Leeds",
-      "crest": "./escudoteca/inglaterra/premier/png/leeds.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Liverpool",
-      "crest": "./escudoteca/inglaterra/premier/png/liverpool.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Manchestercity",
-      "crest": "./escudoteca/inglaterra/premier/png/manchestercity.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Manchesterunited",
-      "crest": "./escudoteca/inglaterra/premier/png/manchesterunited.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Newcastle",
-      "crest": "./escudoteca/inglaterra/premier/png/newcastle.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Nottingham Forest",
-      "crest": "./escudoteca/inglaterra/premier/png/nottingham_forest.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Sunderland",
-      "crest": "./escudoteca/inglaterra/premier/png/sunderland.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Tottenham",
-      "crest": "./escudoteca/inglaterra/premier/png/tottenham.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Westham",
-      "crest": "./escudoteca/inglaterra/premier/png/westham.png"
-    },
-    {
-      "country": "inglaterra",
-      "league": "premier",
-      "name": "Wolves",
-      "crest": "./escudoteca/inglaterra/premier/png/wolves.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Atalanta",
-      "crest": "./escudoteca/italia/seriea/png/atalanta.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Bologna",
-      "crest": "./escudoteca/italia/seriea/png/bologna.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Cagliari",
-      "crest": "./escudoteca/italia/seriea/png/cagliari.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Como",
-      "crest": "./escudoteca/italia/seriea/png/como.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Cremonese",
-      "crest": "./escudoteca/italia/seriea/png/cremonese.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Fiorentina",
-      "crest": "./escudoteca/italia/seriea/png/fiorentina.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Genoa",
-      "crest": "./escudoteca/italia/seriea/png/genoa.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Hellasverona",
-      "crest": "./escudoteca/italia/seriea/png/hellasverona.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Inter",
-      "crest": "./escudoteca/italia/seriea/png/inter.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Juventus",
-      "crest": "./escudoteca/italia/seriea/png/juventus.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Lazio",
-      "crest": "./escudoteca/italia/seriea/png/lazio.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Lecce",
-      "crest": "./escudoteca/italia/seriea/png/lecce.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Milan",
-      "crest": "./escudoteca/italia/seriea/png/milan.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Napoli",
-      "crest": "./escudoteca/italia/seriea/png/napoli.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Parma",
-      "crest": "./escudoteca/italia/seriea/png/parma.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Pisa",
-      "crest": "./escudoteca/italia/seriea/png/pisa.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Roma",
-      "crest": "./escudoteca/italia/seriea/png/roma.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Sassuolo",
-      "crest": "./escudoteca/italia/seriea/png/sassuolo.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Torino",
-      "crest": "./escudoteca/italia/seriea/png/torino.png"
-    },
-    {
-      "country": "italia",
-      "league": "seriea",
-      "name": "Udinese",
-      "crest": "./escudoteca/italia/seriea/png/udinese.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Albirex Niigata",
-      "crest": "./escudoteca/japon/j1league/png/albirex_niigata.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Avispa Fukuoka",
-      "crest": "./escudoteca/japon/j1league/png/avispa_fukuoka.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Cerezo Osaka",
-      "crest": "./escudoteca/japon/j1league/png/cerezo_osaka.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Fagiano Okayama",
-      "crest": "./escudoteca/japon/j1league/png/fagiano_okayama.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Fc Tokyo",
-      "crest": "./escudoteca/japon/j1league/png/fc_tokyo.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Gamba Osaka",
-      "crest": "./escudoteca/japon/j1league/png/gamba_osaka.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Kashima Antlers",
-      "crest": "./escudoteca/japon/j1league/png/kashima_antlers.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Kashiwa Reysol",
-      "crest": "./escudoteca/japon/j1league/png/kashiwa_reysol.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Kawasaki",
-      "crest": "./escudoteca/japon/j1league/png/kawasaki.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Kyoto Sanga",
-      "crest": "./escudoteca/japon/j1league/png/kyoto_sanga.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Machida Zelvia​",
-      "crest": "./escudoteca/japon/j1league/png/machida_zelvia​.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Nagoya Grampus",
-      "crest": "./escudoteca/japon/j1league/png/nagoya_grampus.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Sanfrecce",
-      "crest": "./escudoteca/japon/j1league/png/sanfrecce.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Shimizu",
-      "crest": "./escudoteca/japon/j1league/png/shimizu.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Shonan",
-      "crest": "./escudoteca/japon/j1league/png/shonan.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Tokyo Verdy",
-      "crest": "./escudoteca/japon/j1league/png/tokyo_verdy.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Urawa",
-      "crest": "./escudoteca/japon/j1league/png/urawa.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Vissel",
-      "crest": "./escudoteca/japon/j1league/png/vissel.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Yokohama",
-      "crest": "./escudoteca/japon/j1league/png/yokohama.png"
-    },
-    {
-      "country": "japon",
-      "league": "j1league",
-      "name": "Yokohama Fc",
-      "crest": "./escudoteca/japon/j1league/png/yokohama_fc.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Alemania",
-      "crest": "./escudoteca/ligas/ligas/png/alemania.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Argentina2",
-      "crest": "./escudoteca/ligas/ligas/png/argentina2.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Argentina Fem",
-      "crest": "./escudoteca/ligas/ligas/png/argentina_fem.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Argentina Primeranacional",
-      "crest": "./escudoteca/ligas/ligas/png/argentina_primeranacional.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Argentina Primera B",
-      "crest": "./escudoteca/ligas/ligas/png/argentina_primera_b.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Argentina Primera C",
-      "crest": "./escudoteca/ligas/ligas/png/argentina_primera_c.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Australia",
-      "crest": "./escudoteca/ligas/ligas/png/australia.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Austria",
-      "crest": "./escudoteca/ligas/ligas/png/austria.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Belgica",
-      "crest": "./escudoteca/ligas/ligas/png/belgica.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Bolivia",
-      "crest": "./escudoteca/ligas/ligas/png/bolivia.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Brasil",
-      "crest": "./escudoteca/ligas/ligas/png/brasil.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Chile",
-      "crest": "./escudoteca/ligas/ligas/png/chile.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "China",
-      "crest": "./escudoteca/ligas/ligas/png/china.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Colombia",
-      "crest": "./escudoteca/ligas/ligas/png/colombia.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Corea",
-      "crest": "./escudoteca/ligas/ligas/png/corea.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Croacia",
-      "crest": "./escudoteca/ligas/ligas/png/croacia.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Ecuador",
-      "crest": "./escudoteca/ligas/ligas/png/ecuador.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Egipto",
-      "crest": "./escudoteca/ligas/ligas/png/egipto.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Escocia",
-      "crest": "./escudoteca/ligas/ligas/png/escocia.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Espana",
-      "crest": "./escudoteca/ligas/ligas/png/espana.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Espana2",
-      "crest": "./escudoteca/ligas/ligas/png/espana2.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Estadosunidos",
-      "crest": "./escudoteca/ligas/ligas/png/estadosunidos.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Francia",
-      "crest": "./escudoteca/ligas/ligas/png/francia.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Grecia",
-      "crest": "./escudoteca/ligas/ligas/png/grecia.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "India",
-      "crest": "./escudoteca/ligas/ligas/png/india.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Inglaterra",
-      "crest": "./escudoteca/ligas/ligas/png/inglaterra.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Italia",
-      "crest": "./escudoteca/ligas/ligas/png/italia.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Japon",
-      "crest": "./escudoteca/ligas/ligas/png/japon.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Mexico",
-      "crest": "./escudoteca/ligas/ligas/png/mexico.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Paisesbajos",
-      "crest": "./escudoteca/ligas/ligas/png/paisesbajos.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Paraguay",
-      "crest": "./escudoteca/ligas/ligas/png/paraguay.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Peru",
-      "crest": "./escudoteca/ligas/ligas/png/peru.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Polonia",
-      "crest": "./escudoteca/ligas/ligas/png/polonia.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Portugal",
-      "crest": "./escudoteca/ligas/ligas/png/portugal.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Puerto Rico",
-      "crest": "./escudoteca/ligas/ligas/png/puerto_rico.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Republicacheca",
-      "crest": "./escudoteca/ligas/ligas/png/republicacheca.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Rusia",
-      "crest": "./escudoteca/ligas/ligas/png/rusia.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Serbia",
-      "crest": "./escudoteca/ligas/ligas/png/serbia.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Suecia",
-      "crest": "./escudoteca/ligas/ligas/png/suecia.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Tailandia",
-      "crest": "./escudoteca/ligas/ligas/png/tailandia.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Turquia",
-      "crest": "./escudoteca/ligas/ligas/png/turquia.png"
-    },
-    {
-      "country": "ligas",
-      "league": "ligas",
-      "name": "Uruguay",
-      "crest": "./escudoteca/ligas/ligas/png/uruguay.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Adidas",
-      "crest": "./escudoteca/marcas/marcas/png/adidas.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Adidas2",
-      "crest": "./escudoteca/marcas/marcas/png/adidas2.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Castore",
-      "crest": "./escudoteca/marcas/marcas/png/castore.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Charly",
-      "crest": "./escudoteca/marcas/marcas/png/charly.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Coach",
-      "crest": "./escudoteca/marcas/marcas/png/coach.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Errea",
-      "crest": "./escudoteca/marcas/marcas/png/errea.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Fiume",
-      "crest": "./escudoteca/marcas/marcas/png/fiume.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Givova",
-      "crest": "./escudoteca/marcas/marcas/png/givova.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Hummel",
-      "crest": "./escudoteca/marcas/marcas/png/hummel.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Hummel2",
-      "crest": "./escudoteca/marcas/marcas/png/hummel2.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Joma",
-      "crest": "./escudoteca/marcas/marcas/png/joma.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Kappa",
-      "crest": "./escudoteca/marcas/marcas/png/kappa.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Kelme",
-      "crest": "./escudoteca/marcas/marcas/png/kelme.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Kyrios",
-      "crest": "./escudoteca/marcas/marcas/png/kyrios.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Lecoq",
-      "crest": "./escudoteca/marcas/marcas/png/lecoq.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Macron",
-      "crest": "./escudoteca/marcas/marcas/png/macron.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Newbalance",
-      "crest": "./escudoteca/marcas/marcas/png/newbalance.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Nike",
-      "crest": "./escudoteca/marcas/marcas/png/nike.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Peak",
-      "crest": "./escudoteca/marcas/marcas/png/peak.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Puma",
-      "crest": "./escudoteca/marcas/marcas/png/puma.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Reebok",
-      "crest": "./escudoteca/marcas/marcas/png/reebok.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Umbro",
-      "crest": "./escudoteca/marcas/marcas/png/umbro.png"
-    },
-    {
-      "country": "marcas",
-      "league": "marcas",
-      "name": "Underarmour",
-      "crest": "./escudoteca/marcas/marcas/png/underarmour.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "America",
-      "crest": "./escudoteca/mexico/ligamx/png/america.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Atlas",
-      "crest": "./escudoteca/mexico/ligamx/png/atlas.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Atleticosl",
-      "crest": "./escudoteca/mexico/ligamx/png/atleticosl.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Cruzazul",
-      "crest": "./escudoteca/mexico/ligamx/png/cruzazul.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Guadalajara",
-      "crest": "./escudoteca/mexico/ligamx/png/guadalajara.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Juarez",
-      "crest": "./escudoteca/mexico/ligamx/png/juarez.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Leon",
-      "crest": "./escudoteca/mexico/ligamx/png/leon.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Mazatlan",
-      "crest": "./escudoteca/mexico/ligamx/png/mazatlan.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Monterrey",
-      "crest": "./escudoteca/mexico/ligamx/png/monterrey.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Necaxa",
-      "crest": "./escudoteca/mexico/ligamx/png/necaxa.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Pachuca",
-      "crest": "./escudoteca/mexico/ligamx/png/pachuca.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Puebla",
-      "crest": "./escudoteca/mexico/ligamx/png/puebla.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Pumas",
-      "crest": "./escudoteca/mexico/ligamx/png/pumas.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Queretaro",
-      "crest": "./escudoteca/mexico/ligamx/png/queretaro.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Santos",
-      "crest": "./escudoteca/mexico/ligamx/png/santos.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Tigres",
-      "crest": "./escudoteca/mexico/ligamx/png/tigres.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Tijuana",
-      "crest": "./escudoteca/mexico/ligamx/png/tijuana.png"
-    },
-    {
-      "country": "mexico",
-      "league": "ligamx",
-      "name": "Toluca",
-      "crest": "./escudoteca/mexico/ligamx/png/toluca.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Ajax",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/ajax.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Az",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/az.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Excelsior",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/excelsior.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Feyenoord",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/feyenoord.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Fortunasittard",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/fortunasittard.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Go Ahead Eagles",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/go_ahead_eagles.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Gronningen",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/gronningen.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Heracles",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/heracles.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Nac Breda​",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/nac_breda​.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Nec",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/nec.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Psv",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/psv.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Scheerenveen",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/scheerenveen.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Sparta",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/sparta.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Telstar",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/telstar.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Twente",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/twente.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Utrecht",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/utrecht.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Volendam",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/volendam.png"
-    },
-    {
-      "country": "paisesbajos",
-      "league": "eredivisie",
-      "name": "Zwolle",
-      "crest": "./escudoteca/paisesbajos/eredivisie/png/zwolle.png"
-    },
-    {
-      "country": "paraguay",
-      "league": "copadeprimera",
-      "name": "2Demayo",
-      "crest": "./escudoteca/paraguay/copadeprimera/png/2demayo.png"
-    },
-    {
-      "country": "paraguay",
-      "league": "copadeprimera",
-      "name": "Atletico Tembetary",
-      "crest": "./escudoteca/paraguay/copadeprimera/png/atletico_tembetary.png"
-    },
-    {
-      "country": "paraguay",
-      "league": "copadeprimera",
-      "name": "Cerroporteno",
-      "crest": "./escudoteca/paraguay/copadeprimera/png/cerroporteno.png"
-    },
-    {
-      "country": "paraguay",
-      "league": "copadeprimera",
-      "name": "General Caballero",
-      "crest": "./escudoteca/paraguay/copadeprimera/png/general_caballero.png"
-    },
-    {
-      "country": "paraguay",
-      "league": "copadeprimera",
-      "name": "Guarani",
-      "crest": "./escudoteca/paraguay/copadeprimera/png/guarani.png"
-    },
-    {
-      "country": "paraguay",
-      "league": "copadeprimera",
-      "name": "Libertad",
-      "crest": "./escudoteca/paraguay/copadeprimera/png/libertad.png"
-    },
-    {
-      "country": "paraguay",
-      "league": "copadeprimera",
-      "name": "Nacional",
-      "crest": "./escudoteca/paraguay/copadeprimera/png/nacional.png"
-    },
-    {
-      "country": "paraguay",
-      "league": "copadeprimera",
-      "name": "Olimpia",
-      "crest": "./escudoteca/paraguay/copadeprimera/png/olimpia.png"
-    },
-    {
-      "country": "paraguay",
-      "league": "copadeprimera",
-      "name": "Recoleta Fc",
-      "crest": "./escudoteca/paraguay/copadeprimera/png/recoleta_fc.png"
-    },
-    {
-      "country": "paraguay",
-      "league": "copadeprimera",
-      "name": "Sportivoluqueno",
-      "crest": "./escudoteca/paraguay/copadeprimera/png/sportivoluqueno.png"
-    },
-    {
-      "country": "paraguay",
-      "league": "copadeprimera",
-      "name": "Sportivo Ameliano",
-      "crest": "./escudoteca/paraguay/copadeprimera/png/sportivo_ameliano.png"
-    },
-    {
-      "country": "paraguay",
-      "league": "copadeprimera",
-      "name": "Sportivo Trinidense",
-      "crest": "./escudoteca/paraguay/copadeprimera/png/sportivo_trinidense.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Adt",
-      "crest": "./escudoteca/peru/liga1/png/adt.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Alianzalima",
-      "crest": "./escudoteca/peru/liga1/png/alianzalima.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Alianza Atletico",
-      "crest": "./escudoteca/peru/liga1/png/alianza_atletico.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Atleticograu",
-      "crest": "./escudoteca/peru/liga1/png/atleticograu.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Atleticouniversidad",
-      "crest": "./escudoteca/peru/liga1/png/atleticouniversidad.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Ayacucho",
-      "crest": "./escudoteca/peru/liga1/png/ayacucho.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Cienciano",
-      "crest": "./escudoteca/peru/liga1/png/cienciano.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Comerciantes Unidos",
-      "crest": "./escudoteca/peru/liga1/png/comerciantes_unidos.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Cusco",
-      "crest": "./escudoteca/peru/liga1/png/cusco.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Deportivo Garcilaso",
-      "crest": "./escudoteca/peru/liga1/png/deportivo_garcilaso.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Huancayo",
-      "crest": "./escudoteca/peru/liga1/png/huancayo.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Juan Pablo Ii College",
-      "crest": "./escudoteca/peru/liga1/png/juan_pablo_II_college.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Los Chankas",
-      "crest": "./escudoteca/peru/liga1/png/los_chankas.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Melgar",
-      "crest": "./escudoteca/peru/liga1/png/melgar.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Sportboys",
-      "crest": "./escudoteca/peru/liga1/png/sportboys.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Sportingcristal",
-      "crest": "./escudoteca/peru/liga1/png/sportingcristal.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Universitario",
-      "crest": "./escudoteca/peru/liga1/png/universitario.png"
-    },
-    {
-      "country": "peru",
-      "league": "liga1",
-      "name": "Utc",
-      "crest": "./escudoteca/peru/liga1/png/utc.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Alverca",
-      "crest": "./escudoteca/portugal/primeiraliga/png/alverca.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Arouca",
-      "crest": "./escudoteca/portugal/primeiraliga/png/arouca.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Avs",
-      "crest": "./escudoteca/portugal/primeiraliga/png/avs.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Benfica",
-      "crest": "./escudoteca/portugal/primeiraliga/png/benfica.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Braga",
-      "crest": "./escudoteca/portugal/primeiraliga/png/braga.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Casa Pia",
-      "crest": "./escudoteca/portugal/primeiraliga/png/casa_pia.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Estoril",
-      "crest": "./escudoteca/portugal/primeiraliga/png/estoril.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Estrella",
-      "crest": "./escudoteca/portugal/primeiraliga/png/estrella.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Famalicao",
-      "crest": "./escudoteca/portugal/primeiraliga/png/famalicao.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Gilvicente",
-      "crest": "./escudoteca/portugal/primeiraliga/png/gilvicente.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Moreirense",
-      "crest": "./escudoteca/portugal/primeiraliga/png/moreirense.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Nacional",
-      "crest": "./escudoteca/portugal/primeiraliga/png/nacional.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Porto",
-      "crest": "./escudoteca/portugal/primeiraliga/png/porto.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Rioave",
-      "crest": "./escudoteca/portugal/primeiraliga/png/rioave.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Santaclara",
-      "crest": "./escudoteca/portugal/primeiraliga/png/santaclara.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Sporting",
-      "crest": "./escudoteca/portugal/primeiraliga/png/sporting.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Tondela",
-      "crest": "./escudoteca/portugal/primeiraliga/png/tondela.png"
-    },
-    {
-      "country": "portugal",
-      "league": "primeiraliga",
-      "name": "Vitoria",
-      "crest": "./escudoteca/portugal/primeiraliga/png/vitoria.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Al Ahly",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/al_ahly.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Al Ain",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/al_ain.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Al Hilal",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/al_hilal.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Al Nassr",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/al_nassr.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Apollon",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/apollon.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Auckland City",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/auckland_city.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Bodo Glimt",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/bodo_glimt.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Dinamo Zagreb",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/dinamo_zagreb.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Esperance Sp Tunis",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/esperance_sp_tunis.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Estrella Roja",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/estrella_roja.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Fc Copenhague",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/fc_copenhague.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Ferencvaros",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/ferencvaros.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Ifk Goteborg",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/ifk_goteborg.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Johor",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/johor.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Kairat Almaty",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/kairat_almaty.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Legia Varsovia",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/legia_varsovia.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Maccabi Haifa",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/maccabi_haifa.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Maccabi Tel Aviv",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/maccabi_tel_aviv.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Malmo",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/malmo.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Mamelodi Sundowns",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/mamelodi_sundowns.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Melbourne Fc",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/melbourne_fc.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Midtjylland",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/midtjylland.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Pafos",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/pafos.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Pfc Ludogorets",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/pfc_ludogorets.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Qarabag",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/qarabag.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Red Bull Salzburgo",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/red_bull_salzburgo.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Rosenborg",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/rosenborg.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Slavia Praga",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/slavia_praga.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Slovan Bratislava",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/slovan_bratislava.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Sparta Praga",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/sparta_praga.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Sturm Graz",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/sturm_graz.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Ulsan Hyundai",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/ulsan_hyundai.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Viktoria Plzen",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/viktoria_plzen.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Wydad Ac",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/wydad_ac.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Young Boys",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/young_boys.png"
-    },
-    {
-      "country": "resto",
-      "league": "resto_del_mundo",
-      "name": "Zurich",
-      "crest": "./escudoteca/resto/resto_del_mundo/png/zurich.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Akhmat Grozny",
-      "crest": "./escudoteca/rusia/ligapremier/png/akhmat_grozny.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Baltika  Kaliningrado",
-      "crest": "./escudoteca/rusia/ligapremier/png/baltika-_kaliningrado.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Cska Moscu",
-      "crest": "./escudoteca/rusia/ligapremier/png/cska_moscu.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Dynamo Moscu",
-      "crest": "./escudoteca/rusia/ligapremier/png/dynamo_moscu.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Fakel Voronezh",
-      "crest": "./escudoteca/rusia/ligapremier/png/fakel_voronezh.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Fc Krasnodar",
-      "crest": "./escudoteca/rusia/ligapremier/png/fc_krasnodar.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Fc Orenburg",
-      "crest": "./escudoteca/rusia/ligapremier/png/fc_orenburg.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Fc Rostov",
-      "crest": "./escudoteca/rusia/ligapremier/png/fc_rostov.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Krylia Sovetov",
-      "crest": "./escudoteca/rusia/ligapremier/png/krylia_sovetov.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Lokomotiv Moscu",
-      "crest": "./escudoteca/rusia/ligapremier/png/lokomotiv_moscu.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Nizhni Novgorod​",
-      "crest": "./escudoteca/rusia/ligapremier/png/nizhni_novgorod​.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Pfc Sochi",
-      "crest": "./escudoteca/rusia/ligapremier/png/pfc_sochi.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Rubin Kazan",
-      "crest": "./escudoteca/rusia/ligapremier/png/rubin_kazan.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Spartak Moscu",
-      "crest": "./escudoteca/rusia/ligapremier/png/spartak_moscu.png"
-    },
-    {
-      "country": "rusia",
-      "league": "ligapremier",
-      "name": "Zenit",
-      "crest": "./escudoteca/rusia/ligapremier/png/zenit.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Albania",
-      "crest": "./escudoteca/selecciones/selecciones/png/albania.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Alemania",
-      "crest": "./escudoteca/selecciones/selecciones/png/alemania.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Andorra",
-      "crest": "./escudoteca/selecciones/selecciones/png/andorra.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Arabiasaudita",
-      "crest": "./escudoteca/selecciones/selecciones/png/arabiasaudita.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Argelia",
-      "crest": "./escudoteca/selecciones/selecciones/png/argelia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Argentina",
-      "crest": "./escudoteca/selecciones/selecciones/png/argentina.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Argentina2",
-      "crest": "./escudoteca/selecciones/selecciones/png/argentina2.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Armenia",
-      "crest": "./escudoteca/selecciones/selecciones/png/armenia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Australia",
-      "crest": "./escudoteca/selecciones/selecciones/png/australia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Austria",
-      "crest": "./escudoteca/selecciones/selecciones/png/austria.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Azerbaiyan",
-      "crest": "./escudoteca/selecciones/selecciones/png/azerbaiyan.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Bangladesh",
-      "crest": "./escudoteca/selecciones/selecciones/png/bangladesh.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Belgica",
-      "crest": "./escudoteca/selecciones/selecciones/png/belgica.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Bielorrusia",
-      "crest": "./escudoteca/selecciones/selecciones/png/bielorrusia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Bolivia",
-      "crest": "./escudoteca/selecciones/selecciones/png/bolivia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Bosnia",
-      "crest": "./escudoteca/selecciones/selecciones/png/bosnia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Brasil",
-      "crest": "./escudoteca/selecciones/selecciones/png/brasil.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Cabo Verde",
-      "crest": "./escudoteca/selecciones/selecciones/png/cabo_verde.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Camerun",
-      "crest": "./escudoteca/selecciones/selecciones/png/camerun.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Canada",
-      "crest": "./escudoteca/selecciones/selecciones/png/canada.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Chile",
-      "crest": "./escudoteca/selecciones/selecciones/png/chile.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "China",
-      "crest": "./escudoteca/selecciones/selecciones/png/china.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Chipre",
-      "crest": "./escudoteca/selecciones/selecciones/png/chipre.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Colombia",
-      "crest": "./escudoteca/selecciones/selecciones/png/colombia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Coreadelsur",
-      "crest": "./escudoteca/selecciones/selecciones/png/coreadelsur.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Costa De Marfil",
-      "crest": "./escudoteca/selecciones/selecciones/png/costa_de_marfil.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Costa Rica",
-      "crest": "./escudoteca/selecciones/selecciones/png/costa_rica.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Croacia",
-      "crest": "./escudoteca/selecciones/selecciones/png/croacia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Cuba",
-      "crest": "./escudoteca/selecciones/selecciones/png/cuba.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Curazao",
-      "crest": "./escudoteca/selecciones/selecciones/png/curazao.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Dinamarca",
-      "crest": "./escudoteca/selecciones/selecciones/png/dinamarca.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Ecuador",
-      "crest": "./escudoteca/selecciones/selecciones/png/ecuador.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Egipto",
-      "crest": "./escudoteca/selecciones/selecciones/png/egipto.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Elsalvador",
-      "crest": "./escudoteca/selecciones/selecciones/png/elsalvador.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Emiratos Arabes Unidos",
-      "crest": "./escudoteca/selecciones/selecciones/png/emiratos_arabes_unidos.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Escocia",
-      "crest": "./escudoteca/selecciones/selecciones/png/escocia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Eslovaquia",
-      "crest": "./escudoteca/selecciones/selecciones/png/eslovaquia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Eslovenia",
-      "crest": "./escudoteca/selecciones/selecciones/png/eslovenia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Espana",
-      "crest": "./escudoteca/selecciones/selecciones/png/espana.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Estonia",
-      "crest": "./escudoteca/selecciones/selecciones/png/estonia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Finlandia",
-      "crest": "./escudoteca/selecciones/selecciones/png/finlandia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Francia",
-      "crest": "./escudoteca/selecciones/selecciones/png/francia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Gabon",
-      "crest": "./escudoteca/selecciones/selecciones/png/gabon.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Gales",
-      "crest": "./escudoteca/selecciones/selecciones/png/gales.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Georgia",
-      "crest": "./escudoteca/selecciones/selecciones/png/georgia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Ghana",
-      "crest": "./escudoteca/selecciones/selecciones/png/ghana.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Gibraltar",
-      "crest": "./escudoteca/selecciones/selecciones/png/gibraltar.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Granada",
-      "crest": "./escudoteca/selecciones/selecciones/png/granada.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Grecia",
-      "crest": "./escudoteca/selecciones/selecciones/png/grecia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Guatemala",
-      "crest": "./escudoteca/selecciones/selecciones/png/guatemala.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Honduras",
-      "crest": "./escudoteca/selecciones/selecciones/png/honduras.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Hungria",
-      "crest": "./escudoteca/selecciones/selecciones/png/hungria.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Inglaterra",
-      "crest": "./escudoteca/selecciones/selecciones/png/inglaterra.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Irak",
-      "crest": "./escudoteca/selecciones/selecciones/png/irak.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Iran",
-      "crest": "./escudoteca/selecciones/selecciones/png/iran.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Irlanda",
-      "crest": "./escudoteca/selecciones/selecciones/png/irlanda.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Irlandadelnorte",
-      "crest": "./escudoteca/selecciones/selecciones/png/irlandadelnorte.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Islandia",
-      "crest": "./escudoteca/selecciones/selecciones/png/islandia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Islas Feroe",
-      "crest": "./escudoteca/selecciones/selecciones/png/islas_feroe.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Israel",
-      "crest": "./escudoteca/selecciones/selecciones/png/israel.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Italia",
-      "crest": "./escudoteca/selecciones/selecciones/png/italia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Jamaica",
-      "crest": "./escudoteca/selecciones/selecciones/png/jamaica.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Japon",
-      "crest": "./escudoteca/selecciones/selecciones/png/japon.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Jordania",
-      "crest": "./escudoteca/selecciones/selecciones/png/jordania.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Kazakhstan",
-      "crest": "./escudoteca/selecciones/selecciones/png/kazakhstan.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Kosovo",
-      "crest": "./escudoteca/selecciones/selecciones/png/kosovo.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Letonia",
-      "crest": "./escudoteca/selecciones/selecciones/png/letonia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Liechtenstein",
-      "crest": "./escudoteca/selecciones/selecciones/png/liechtenstein.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Lituania",
-      "crest": "./escudoteca/selecciones/selecciones/png/lituania.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Luxemburgo",
-      "crest": "./escudoteca/selecciones/selecciones/png/luxemburgo.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Macedonia",
-      "crest": "./escudoteca/selecciones/selecciones/png/macedonia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Mali",
-      "crest": "./escudoteca/selecciones/selecciones/png/mali.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Malta",
-      "crest": "./escudoteca/selecciones/selecciones/png/malta.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Marruecos",
-      "crest": "./escudoteca/selecciones/selecciones/png/marruecos.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Martinica",
-      "crest": "./escudoteca/selecciones/selecciones/png/martinica.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Mexico",
-      "crest": "./escudoteca/selecciones/selecciones/png/mexico.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Moldavia",
-      "crest": "./escudoteca/selecciones/selecciones/png/moldavia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Montenegro",
-      "crest": "./escudoteca/selecciones/selecciones/png/montenegro.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Nicaragua",
-      "crest": "./escudoteca/selecciones/selecciones/png/nicaragua.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Nigeria",
-      "crest": "./escudoteca/selecciones/selecciones/png/nigeria.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Noruega",
-      "crest": "./escudoteca/selecciones/selecciones/png/noruega.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Nuevazelanda",
-      "crest": "./escudoteca/selecciones/selecciones/png/nuevazelanda.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Nueva Caledonia",
-      "crest": "./escudoteca/selecciones/selecciones/png/nueva_caledonia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Paisesbajos",
-      "crest": "./escudoteca/selecciones/selecciones/png/paisesbajos.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Panama",
-      "crest": "./escudoteca/selecciones/selecciones/png/panama.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Paraguay",
-      "crest": "./escudoteca/selecciones/selecciones/png/paraguay.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Peru",
-      "crest": "./escudoteca/selecciones/selecciones/png/peru.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Polonia",
-      "crest": "./escudoteca/selecciones/selecciones/png/polonia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Portugal",
-      "crest": "./escudoteca/selecciones/selecciones/png/portugal.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Qatar",
-      "crest": "./escudoteca/selecciones/selecciones/png/qatar.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Republicacheca",
-      "crest": "./escudoteca/selecciones/selecciones/png/republicacheca.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Republica Dominicana",
-      "crest": "./escudoteca/selecciones/selecciones/png/republica_dominicana.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Rumania",
-      "crest": "./escudoteca/selecciones/selecciones/png/rumania.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Rusia",
-      "crest": "./escudoteca/selecciones/selecciones/png/rusia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "San Marino",
-      "crest": "./escudoteca/selecciones/selecciones/png/san_marino.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Senegal",
-      "crest": "./escudoteca/selecciones/selecciones/png/senegal.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Serbia",
-      "crest": "./escudoteca/selecciones/selecciones/png/serbia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Sudafrica",
-      "crest": "./escudoteca/selecciones/selecciones/png/sudafrica.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Suecia",
-      "crest": "./escudoteca/selecciones/selecciones/png/suecia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Suiza",
-      "crest": "./escudoteca/selecciones/selecciones/png/suiza.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Surinam",
-      "crest": "./escudoteca/selecciones/selecciones/png/surinam.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Tahiti",
-      "crest": "./escudoteca/selecciones/selecciones/png/tahiti.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Tunez",
-      "crest": "./escudoteca/selecciones/selecciones/png/tunez.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Turquia",
-      "crest": "./escudoteca/selecciones/selecciones/png/turquia.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Ucrania",
-      "crest": "./escudoteca/selecciones/selecciones/png/ucrania.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Uruguay",
-      "crest": "./escudoteca/selecciones/selecciones/png/uruguay.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Usa",
-      "crest": "./escudoteca/selecciones/selecciones/png/usa.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Uzbekistan",
-      "crest": "./escudoteca/selecciones/selecciones/png/uzbekistan.png"
-    },
-    {
-      "country": "selecciones",
-      "league": "selecciones",
-      "name": "Venezuela",
-      "crest": "./escudoteca/selecciones/selecciones/png/venezuela.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Alanyaspor",
-      "crest": "./escudoteca/turquia/superliga/png/alanyaspor.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Antalyaspor",
-      "crest": "./escudoteca/turquia/superliga/png/antalyaspor.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Besiktas",
-      "crest": "./escudoteca/turquia/superliga/png/besiktas.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Caykur Rizespor",
-      "crest": "./escudoteca/turquia/superliga/png/caykur_rizespor.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Estambul",
-      "crest": "./escudoteca/turquia/superliga/png/estambul.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Eyupspor",
-      "crest": "./escudoteca/turquia/superliga/png/eyupspor.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Fatih",
-      "crest": "./escudoteca/turquia/superliga/png/fatih.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Fenerbahce",
-      "crest": "./escudoteca/turquia/superliga/png/fenerbahce.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Galatasaray",
-      "crest": "./escudoteca/turquia/superliga/png/galatasaray.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Gaziantep",
-      "crest": "./escudoteca/turquia/superliga/png/gaziantep.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Genclerbirligi",
-      "crest": "./escudoteca/turquia/superliga/png/genclerbirligi.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Goztepe",
-      "crest": "./escudoteca/turquia/superliga/png/goztepe.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Kasımpasa",
-      "crest": "./escudoteca/turquia/superliga/png/kasımpasa.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Kayserispor",
-      "crest": "./escudoteca/turquia/superliga/png/kayserispor.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Kocaelispor",
-      "crest": "./escudoteca/turquia/superliga/png/kocaelispor.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Konyaspor",
-      "crest": "./escudoteca/turquia/superliga/png/konyaspor.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Samsunspor",
-      "crest": "./escudoteca/turquia/superliga/png/samsunspor.png"
-    },
-    {
-      "country": "turquia",
-      "league": "superliga",
-      "name": "Trabzonspor",
-      "crest": "./escudoteca/turquia/superliga/png/trabzonspor.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Dinamo Kiev",
-      "crest": "./escudoteca/ucrania/ligapremier/png/dinamo_kiev.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Epicentr",
-      "crest": "./escudoteca/ucrania/ligapremier/png/epicentr.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Karpaty Lviv",
-      "crest": "./escudoteca/ucrania/ligapremier/png/karpaty_lviv.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Kolos Kovalivka",
-      "crest": "./escudoteca/ucrania/ligapremier/png/kolos_kovalivka.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Kryvbas Kryvyi",
-      "crest": "./escudoteca/ucrania/ligapremier/png/kryvbas_kryvyi.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Kudrivka",
-      "crest": "./escudoteca/ucrania/ligapremier/png/kudrivka.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Lnz Cherkasy",
-      "crest": "./escudoteca/ucrania/ligapremier/png/lnz_cherkasy.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Metalist 1925 Jarkov",
-      "crest": "./escudoteca/ucrania/ligapremier/png/metalist_1925_jarkov.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Oleksandria",
-      "crest": "./escudoteca/ucrania/ligapremier/png/oleksandria.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Polissya Zhytomyr",
-      "crest": "./escudoteca/ucrania/ligapremier/png/polissya_zhytomyr.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Poltava",
-      "crest": "./escudoteca/ucrania/ligapremier/png/poltava.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Rukh Lviv",
-      "crest": "./escudoteca/ucrania/ligapremier/png/rukh_lviv.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Shakhtar Donetsk",
-      "crest": "./escudoteca/ucrania/ligapremier/png/shakhtar_donetsk.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Veres Rivne",
-      "crest": "./escudoteca/ucrania/ligapremier/png/veres_rivne.png"
-    },
-    {
-      "country": "ucrania",
-      "league": "ligapremier",
-      "name": "Zarya Lugansk",
-      "crest": "./escudoteca/ucrania/ligapremier/png/zarya_lugansk.png"
-    },
-    {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Bostonriver",
-      "crest": "./escudoteca/uruguay/primeradivision/png/bostonriver.png"
-    },
-    {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Cerro",
-      "crest": "./escudoteca/uruguay/primeradivision/png/cerro.png"
-    },
-    {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Cerrolargo",
-      "crest": "./escudoteca/uruguay/primeradivision/png/cerrolargo.png"
-    },
-    {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Danubio",
-      "crest": "./escudoteca/uruguay/primeradivision/png/danubio.png"
-    },
-    {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Defensor",
-      "crest": "./escudoteca/uruguay/primeradivision/png/defensor.png"
-    },
-    {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Juventud",
-      "crest": "./escudoteca/uruguay/primeradivision/png/juventud.png"
-    },
-    {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Liverpool",
-      "crest": "./escudoteca/uruguay/primeradivision/png/liverpool.png"
-    },
-    {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Miramar Misiones",
-      "crest": "./escudoteca/uruguay/primeradivision/png/miramar_misiones.png"
-    },
-    {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Montevideocity",
-      "crest": "./escudoteca/uruguay/primeradivision/png/montevideocity.png"
-    },
-    {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Nacional",
-      "crest": "./escudoteca/uruguay/primeradivision/png/nacional.png"
-    },
-    {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Penarol",
-      "crest": "./escudoteca/uruguay/primeradivision/png/penarol.png"
-    },
-    {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Plazacolonia",
-      "crest": "./escudoteca/uruguay/primeradivision/png/plazacolonia.png"
-    },
-    {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Progreso",
-      "crest": "./escudoteca/uruguay/primeradivision/png/progreso.png"
-    },
-    {
-      "country": "uruguay",
-      "league": "primeradivision",
+      "country": "argentina",
+      "league": "argentina",
       "name": "Racing",
-      "crest": "./escudoteca/uruguay/primeradivision/png/racing.png"
+      "crest": "./escudoteca/argentina/Argentina/png/racing.png"
     },
     {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Riverplate",
-      "crest": "./escudoteca/uruguay/primeradivision/png/riverplate.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Racing Cordoba",
+      "crest": "./escudoteca/argentina/Argentina/png/racing_cordoba.png"
     },
     {
-      "country": "uruguay",
-      "league": "primeradivision",
-      "name": "Wanderers",
-      "crest": "./escudoteca/uruguay/primeradivision/png/wanderers.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Real Pilar",
+      "crest": "./escudoteca/argentina/Argentina/png/realpilar.png"
     },
     {
-      "country": "venezuela",
-      "league": "primeradivision",
-      "name": "Academia",
-      "crest": "./escudoteca/venezuela/primeradivision/png/academia.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Riestra",
+      "crest": "./escudoteca/argentina/Argentina/png/riestra.png"
     },
     {
-      "country": "venezuela",
-      "league": "primeradivision",
-      "name": "Anzoategui",
-      "crest": "./escudoteca/venezuela/primeradivision/png/anzoategui.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "River",
+      "crest": "./escudoteca/argentina/Argentina/png/river.png"
     },
     {
-      "country": "venezuela",
-      "league": "primeradivision",
-      "name": "Carabobo",
-      "crest": "./escudoteca/venezuela/primeradivision/png/carabobo.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Rosario Central",
+      "crest": "./escudoteca/argentina/Argentina/png/rosariocentral.png"
     },
     {
-      "country": "venezuela",
-      "league": "primeradivision",
-      "name": "Caracas",
-      "crest": "./escudoteca/venezuela/primeradivision/png/caracas.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Sacachispas",
+      "crest": "./escudoteca/argentina/Argentina/png/sacachispas.png"
     },
     {
-      "country": "venezuela",
-      "league": "primeradivision",
-      "name": "Deportivotachira",
-      "crest": "./escudoteca/venezuela/primeradivision/png/deportivotachira.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "San Lorenzo",
+      "crest": "./escudoteca/argentina/Argentina/png/sanlorenzo.png"
     },
     {
-      "country": "venezuela",
-      "league": "primeradivision",
-      "name": "Estudiantesmerida",
-      "crest": "./escudoteca/venezuela/primeradivision/png/estudiantesmerida.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "San Martin de San Juan",
+      "crest": "./escudoteca/argentina/Argentina/png/sanmartinsj.png"
     },
     {
-      "country": "venezuela",
-      "league": "primeradivision",
-      "name": "Laguaira",
-      "crest": "./escudoteca/venezuela/primeradivision/png/laguaira.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "San Martín de Tucumán",
+      "crest": "./escudoteca/argentina/Argentina/png/sanmartintuc.png"
     },
     {
-      "country": "venezuela",
-      "league": "primeradivision",
-      "name": "Metropolitanos",
-      "crest": "./escudoteca/venezuela/primeradivision/png/metropolitanos.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "San Miguel",
+      "crest": "./escudoteca/argentina/Argentina/png/sanmiguel.png"
     },
     {
-      "country": "venezuela",
-      "league": "primeradivision",
-      "name": "Monagas",
-      "crest": "./escudoteca/venezuela/primeradivision/png/monagas.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "San Telmo",
+      "crest": "./escudoteca/argentina/Argentina/png/santelmo.png"
     },
     {
-      "country": "venezuela",
-      "league": "primeradivision",
-      "name": "Portuguesa",
-      "crest": "./escudoteca/venezuela/primeradivision/png/portuguesa.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Sarmiento",
+      "crest": "./escudoteca/argentina/Argentina/png/sarmiento.png"
     },
     {
-      "country": "venezuela",
-      "league": "primeradivision",
-      "name": "Rayo Zuliano",
-      "crest": "./escudoteca/venezuela/primeradivision/png/rayo_zuliano.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "San Martín de Burzaco",
+      "crest": "./escudoteca/argentina/Argentina/png/smburzaco.png"
     },
     {
-      "country": "venezuela",
-      "league": "primeradivision",
-      "name": "Univcentral",
-      "crest": "./escudoteca/venezuela/primeradivision/png/univcentral.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Sportivo Italiano",
+      "crest": "./escudoteca/argentina/Argentina/png/spitaliano.png"
     },
     {
-      "country": "venezuela",
-      "league": "primeradivision",
-      "name": "Yaracuyanos",
-      "crest": "./escudoteca/venezuela/primeradivision/png/yaracuyanos.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Talleres",
+      "crest": "./escudoteca/argentina/Argentina/png/talleres.png"
     },
     {
-      "country": "venezuela",
-      "league": "primeradivision",
-      "name": "Zamora",
-      "crest": "./escudoteca/venezuela/primeradivision/png/zamora.png"
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Temperley",
+      "crest": "./escudoteca/argentina/Argentina/png/temperley.png"
+    },
+    {
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Tigre",
+      "crest": "./escudoteca/argentina/Argentina/png/tigre.png"
+    },
+    {
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Tristán Suárez",
+      "crest": "./escudoteca/argentina/Argentina/png/tristansuarez.png"
+    },
+    {
+      "country": "argentina",
+      "league": "argentina",
+      "name": "UAI Urquiza",
+      "crest": "./escudoteca/argentina/Argentina/png/uaiurquiza.png"
+    },
+    {
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Union",
+      "crest": "./escudoteca/argentina/Argentina/png/union.png"
+    },
+    {
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Velez",
+      "crest": "./escudoteca/argentina/Argentina/png/velez.png"
+    },
+    {
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Villa Dalmine",
+      "crest": "./escudoteca/argentina/Argentina/png/villadalmine.png"
+    },
+    {
+      "country": "argentina",
+      "league": "argentina",
+      "name": "Villa San Carlos",
+      "crest": "./escudoteca/argentina/Argentina/png/villasancarlos.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Arsenal",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/arsenal.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Aston Villa",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/astonvilla.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Blackburn Rovers",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/blackburn_rovers.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Bournemouth",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/bournemouth.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Brentford",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/brentford.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Brighton",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/brighton.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Bristol",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/bristol.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Burnley",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/burnley.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Cardiff City",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/cardiff_city.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Chelsea",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/chelsea.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Coventry",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/coventry.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Crystal Palace",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/crystalpalace.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Derby County",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/derby_county.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Everton",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/everton.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Fulham",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/fulham.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Hull City",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/hull_city.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Leeds",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/leeds.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Liverpool",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/liverpool.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Luton Town",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/luton_town.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Manchester City",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/manchestercity.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Manchester United",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/manchesterunited.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Middlesbrough",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/middlesbrough.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Millwall",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/millwall.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Newcastle",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/newcastle.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Norwich",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/norwich.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Nottingham Forest",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/nottingham_forest.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Oxford",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/oxford.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Plymouth Argyle",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/plymouth_argyle.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Portsmouth",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/portsmouth.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Preston",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/preston.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Queens Park",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/queens_park.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Sheffield",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/sheffield.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Sheffield Wednesday",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/sheffield_wednesday.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Stoke City",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/stoke_city.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Sunderland",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/sunderland.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Swansea City",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/swansea_city.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Tottenham",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/tottenham.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Watford",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/watford.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "West Bromwich Albion",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/westbrownwichalbion.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "West Ham",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/westham.png"
+    },
+    {
+      "country": "inglaterra",
+      "league": "inglaterra",
+      "name": "Wolves",
+      "crest": "./escudoteca/inglaterra/Inglaterra/png/wolves.png"
     }
   ]
 }

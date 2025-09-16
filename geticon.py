@@ -1,16 +1,17 @@
 """
-Escudoteca PNG Downloader (full site, per country/division)
-----------------------------------------------------------
-- Descubre TODOS los países y TODAS sus divisiones (primer nivel bajo el país).
-- Para cada división recorre solo sus páginas y descarga todos los .png (y opcional .zip).
-- Conserva la estructura de carpetas: ./escudoteca/<pais>/<division>/.../*.png
+Escudoteca PNG Downloader (full site)
+-------------------------------------
+- Crawls https://paladarnegro.net/escudoteca/ starting from index.html
+- Collects every .png link under /escudoteca/ (country/league/png/*.png)
+- Downloads preserving the original folder structure:
+  ./escudoteca/argentina/primeradivision/png/club.png
 
-Uso (Windows PowerShell / macOS / Linux):
+Usage (Windows PowerShell / macOS / Linux):
   pip install requests beautifulsoup4 tqdm
   python descargar_escudoteca.py
 
-Ajustes rápidos:
-  OUTDIR, MAX_WORKERS, SLEEP_BETWEEN, INCLUDE_ZIP
+Options you might tweak below:
+  OUTDIR, MAX_WORKERS, SLEEP_BETWEEN, INCLUDE_ZIP (False by default)
 """
 
 import os
@@ -24,22 +25,28 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-BASE   = "https://paladarnegro.net/escudoteca/"
-START  = urljoin(BASE, "index.html")
-OUTDIR = "escudoteca"         # carpeta raíz local
-MAX_WORKERS = 3               # paralelismo al descargar archivos
+BASE = "https://paladarnegro.net/escudoteca/"
+START = urljoin(BASE, "index.html")
+OUTDIR = "escudoteca"          # root output folder
+MAX_WORKERS = 6                # parallel downloads for files
 TIMEOUT = 25
-RETRY   = 3
-SLEEP_BETWEEN = (0.80, 1.20)  # pausa aleatoria educada entre requests
-INCLUDE_ZIP   = False         # True si también querés packs .zip
+RETRY = 3
+SLEEP_BETWEEN = (0.20, 0.80)   # polite random sleep (seconds) between requests
+INCLUDE_ZIP = False            # set True if you also want league ZIP packs
 
 session = requests.Session()
-session.headers.update({"User-Agent": "escudoteca-downloader/1.1 (+personal use)"})
+session.headers.update({
+    "User-Agent": "escudoteca-downloader/1.0 (+personal use)"
+})
 
 lock = threading.Lock()
+page_frontier = []
+visited_pages = set()
+png_urls = set()
+zip_urls = set()
 
-HTML_CTYPES = ("text/html", "text/plain", "application/xhtml+xml")
 BIN_EXT = re.compile(r"\.(png|zip|svg|pdf|jpg|jpeg|gif|webp|ico)$", re.I)
+HTML_CTYPES = ("text/html", "text/plain", "application/xhtml+xml")
 
 def polite_sleep():
     import random
@@ -54,6 +61,7 @@ def is_internal(url: str) -> bool:
         return False
 
 def get(url: str):
+    # simple retry loop
     for _ in range(RETRY):
         try:
             r = session.get(url, timeout=TIMEOUT, allow_redirects=True)
@@ -65,123 +73,67 @@ def get(url: str):
     return None
 
 def norm_join(base: str, href: str) -> str:
+    # join and clean fragments
     u = urljoin(base, href)
+    # strip anchors/query for our purpose
     parts = urlparse(u)
     return parts._replace(fragment="", query="").geturl()
 
-def path_after_root(url_or_path: str) -> str:
-    """Devuelve lo que viene después de /escudoteca/ en la URL o path."""
-    path = urlparse(url_or_path).path if "://" in url_or_path else url_or_path
-    if "/escudoteca/" not in path:
-        return ""
-    return path.split("/escudoteca/", 1)[1].lstrip("/")
+def scrape_page(url: str):
+    # Skip if already done
+    with lock:
+        if url in visited_pages:
+            return
+        visited_pages.add(url)
 
-def first_segments_after_root(url: str, n=2):
-    """Devuelve los primeros n segmentos después de /escudoteca/."""
-    rest = path_after_root(url)
-    parts = [p for p in rest.split("/") if p]
-    return parts[:n]
-
-def is_dir_link(href: str) -> bool:
-    """Aproximación: enlaces que parecen carpeta (terminan en / o no tienen extensión)."""
-    p = urlparse(href).path
-    return p.endswith("/") or ('.' not in os.path.basename(p))
-
-def discover_country_urls():
-    """Descubre todos los países (primer segmento bajo /escudoteca/)."""
-    r = get(START)
+    r = get(url)
     if not r:
-        return set()
+        return
+
+    ctype = r.headers.get("Content-Type", "")
+    if not any(ctype.startswith(x) for x in HTML_CTYPES):
+        return
+
     soup = BeautifulSoup(r.text, "html.parser")
-    countries = set()
+
+    # collect PNG links
     for a in soup.find_all("a", href=True):
-        href = norm_join(START, a["href"])
-        if not is_internal(href):
-            continue
-        segs = first_segments_after_root(href, n=1)
-        if len(segs) == 1:
-            country = segs[0]
-            # armamos URL de país con trailing slash
-            countries.add(urljoin(BASE, f"{country}/"))
-    return countries
+        href = norm_join(url, a["href"])
+        if href.lower().endswith(".png") and is_internal(href):
+            with lock:
+                png_urls.add(href)
 
-def discover_divisions_for_country(country_url: str):
-    """
-    Descubre TODAS las divisiones de un país:
-    - Busca links internos bajo /escudoteca/<pais>/ y toma el primer nivel tras el país.
-    """
-    r = get(country_url)
-    if not r:
-        return set()
-    soup = BeautifulSoup(r.text, "html.parser")
-    divisions = set()
-    for a in soup.find_all("a", href=True):
-        href = norm_join(country_url, a["href"])
-        if not is_internal(href):
-            continue
-        segs = first_segments_after_root(href, n=2)
-        if len(segs) >= 2:
-            country, division = segs[0], segs[1]
-            # URL normalizada de la división
-            divisions.add(urljoin(BASE, f"{country}/{division}/"))
-    return divisions
-
-def crawl_division_for_files(division_url: str):
-    """
-    Recorre SOLO páginas bajo la ruta de la división y junta todos los .png (y opcional .zip).
-    """
-    png_urls = set()
-    zip_urls = set()
-    visited = set()
-    frontier = [division_url]
-
-    div_prefix = urlparse(division_url).path.rstrip("/") + "/"
-
-    while frontier:
-        url = frontier.pop(0)
-        if url in visited:
-            continue
-        visited.add(url)
-
-        r = get(url)
-        if not r:
-            continue
-        ctype = r.headers.get("Content-Type", "")
-        if not any(ctype.startswith(x) for x in HTML_CTYPES):
-            continue
-
-        soup = BeautifulSoup(r.text, "html.parser")
+    # optionally collect ZIP packs (league packs)
+    if INCLUDE_ZIP:
         for a in soup.find_all("a", href=True):
             href = norm_join(url, a["href"])
-            if not is_internal(href):
-                continue
-            path = urlparse(href).path
-            # limitarse a la misma división
-            if not path.startswith(div_prefix):
-                continue
+            if href.lower().endswith(".zip") and is_internal(href):
+                with lock:
+                    zip_urls.add(href)
 
-            low = href.lower()
-            if low.endswith(".png"):
-                png_urls.add(href)
-                continue
-            if INCLUDE_ZIP and low.endswith(".zip"):
-                zip_urls.add(href)
-                continue
-
-            # si parece carpeta o html: seguir recorriendo
-            if not BIN_EXT.search(href):
-                if href not in visited:
-                    frontier.append(href)
-
-    return png_urls, zip_urls
+    # enqueue more pages to crawl (only internal under /escudoteca/)
+    for a in soup.find_all("a", href=True):
+        href = norm_join(url, a["href"])
+        if not is_internal(href):
+            continue
+        # don't enqueue binary files; we only crawl HTML pages
+        if BIN_EXT.search(href):
+            continue
+        with lock:
+            if href not in visited_pages:
+                page_frontier.append(href)
 
 def local_path_from_url(file_url: str) -> str:
     """
-    https://paladarnegro.net/escudoteca/argentina/primeradivision/png/xxx.png
-    -> ./escudoteca/argentina/primeradivision/png/xxx.png
+    Map https://paladarnegro.net/escudoteca/argentina/primeradivision/png/xxx.png
+    to ./escudoteca/argentina/primeradivision/png/xxx.png
     """
-    rel = path_after_root(file_url)  # e.g. argentina/primeradivision/png/xxx.png
-    return os.path.join(OUTDIR, rel)
+    path = urlparse(file_url).path
+    # ensure it always starts with /escudoteca/
+    if "/escudoteca/" not in path:
+        raise ValueError(f"Unexpected path outside escudoteca: {path}")
+    rel = path.split("/escudoteca/", 1)[1]  # e.g. "argentina/primeradivision/png/xxx.png"
+    return os.path.join(OUTDIR, "escudoteca", rel)
 
 def save_file(file_url: str):
     r = get(file_url)
@@ -197,62 +149,45 @@ def save_file(file_url: str):
 def main():
     os.makedirs(OUTDIR, exist_ok=True)
 
-    # 1) países
-    countries = sorted(discover_country_urls())
-    if not countries:
-        print("No se pudieron descubrir países desde el índice.")
-        return
-    print(f"Países detectados: {len(countries)}")
+    # Crawl (single-threaded traversal of HTML to avoid hammering)
+    with tqdm(total=0, desc="Discovering pages", unit="page") as pbar:
+        page_frontier.append(START)
+        while page_frontier:
+            url = page_frontier.pop(0)
+            scrape_page(url)
+            pbar.total = len(visited_pages)
+            pbar.update(0)  # refresh display
 
-    # 2) divisiones por país
-    country_to_divs = {}
-    total_divs = 0
-    for cu in tqdm(countries, desc="Descubriendo divisiones", unit="pais"):
-        divs = sorted(discover_divisions_for_country(cu))
-        country_to_divs[cu] = divs
-        total_divs += len(divs)
+    png_list = sorted(png_urls)
+    print(f"\nDiscovered PNG files: {len(png_list)}")
 
-    print(f"Divisiones detectadas: {total_divs}")
-
-    # 3) recorrer cada división y juntar archivos
-    all_pngs = set()
-    all_zips = set()
-
-    for cu, divs in country_to_divs.items():
-        country_name = first_segments_after_root(cu, n=1)[0]
-        for du in tqdm(divs, desc=f"{country_name}: divisiones", unit="div"):
-            pngs, zips = crawl_division_for_files(du)
-            all_pngs.update(pngs)
-            all_zips.update(zips)
-
-    print(f"\nPNG descubiertos: {len(all_pngs)}")
-    if INCLUDE_ZIP:
-        print(f"ZIP descubiertos: {len(all_zips)}")
-
-    # 4) descargar
+    # Download PNGs
     ok = 0
-    if all_pngs:
+    if png_list:
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex, \
-             tqdm(total=len(all_pngs), desc="Descargando PNG", unit="file") as bar:
-            futures = [ex.submit(save_file, u) for u in sorted(all_pngs)]
+             tqdm(total=len(png_list), desc="Downloading PNG", unit="file") as bar:
+            futures = [ex.submit(save_file, u) for u in png_list]
             for fut in as_completed(futures):
                 _, success = fut.result()
                 ok += int(success)
                 bar.update(1)
-    print(f"PNG OK: {ok}/{len(all_pngs)} guardados en ./{OUTDIR}")
 
-    if INCLUDE_ZIP and all_zips:
+    print(f"PNG done: {ok}/{len(png_list)} saved under ./{OUTDIR}")
+
+    if INCLUDE_ZIP and zip_urls:
+        zips = sorted(zip_urls)
+        print(f"Discovered ZIP packs: {len(zips)}")
         okz = 0
         with ThreadPoolExecutor(max_workers=2) as ex, \
-             tqdm(total=len(all_zips), desc="Descargando ZIP", unit="zip") as bar:
-            futures = [ex.submit(save_file, u) for u in sorted(all_zips)]
+             tqdm(total=len(zips), desc="Downloading ZIP", unit="zip") as bar:
+            futures = [ex.submit(save_file, u) for u in zips]
             for fut in as_completed(futures):
                 _, success = fut.result()
                 okz += int(success)
                 bar.update(1)
-        print(f"ZIP OK: {okz}/{len(all_zips)}")
+        print(f"ZIP done: {okz}/{len(zips)}")
 
-    print("Hecho.")
+    print("All done.")
 
 if __name__ == "__main__":
     main()
